@@ -1,7 +1,7 @@
 ---
 output: 
   html_document:
-    title:  Ferrari Lab at Columbia University
+    title:  Ferrari Lab at Columbia University in New York
     toc: true
     toc_float: true
     includes:
