@@ -1,0 +1,23 @@
+name: "Ferrari Lab at Columbia University"
+output_dir: "."
+theme: journal
+navbar:
+  title: "Ferrari Lab at Columbia University"
+  right:
+    - text: "About Us"
+      href: about.html
+    - text: "Projects and Publications"
+      href: projects.html
+    - text: "Biobank"
+      href: biobank.html
+    - text: "Research Program for Residents"
+      href: program.html
+    - icon: fa-user-md fa-lg
+      href: https://columbiasurgery.org/heart/
+    - icon: fa-telegram fa-lg
+      href: mailto:<gf2375@cumc.columbia.edu>
+output:
+  html_document:
+    css: style.css
+    theme: journal
+    code_folding: hide

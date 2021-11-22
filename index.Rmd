@@ -1,0 +1,151 @@
+---
+output: 
+  html_document:
+    title:  Ferrari Lab at Columbia University
+    toc: true
+    toc_float: true
+    includes:
+      in_header: hero-image.html
+editor_options: 
+  chunk_output_type: console
+---
+
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+\
+
+## <i class='fas fa-compass'></i> Our Lab
+
+\
+
+<center>
+
+**Welcome to the Ferrari Laboratory website.**  \
+
+**We are located at the Columbia University Irving Medical Center in New York City, New York.**
+
+\
+
+![](images/nyc.jpg){width=80%}
+
+</center>
+
+\
+
+## <i class='fas fa-flask'></i> Our Research\
+
+\
+
+<center>
+
+![](images/research.png){width=65%}
+
+</center>
+
+\
+
+
+## <i class='fas fa-rss-square'></i> Lab News
+
+\
+
+<div id="demobox">
+
+October 2021\
+Launched Ferrari Lab website.
+
+</div>
+
+\
+
+<div id="demobox">
+
+October 2021\
+Alexey Abramov's abstract "Extracorporeal Membrane Oxygenation (ECMO) Support in Patients with Covid-19: A Historical Control Propensity Score Matched Study" was accepted for an oral presentation at the annual meeting for the Society of Thoracic Surgeons (STS) in Miami, FL.  
+</div>
+
+
+\
+
+## <i class='fas fa-comments'></i> Social Media
+
+<a class="twitter-timeline" data-width="650" data-height="350" href="https://twitter.com/lab_ferrari?ref_src=twsrc%5Etfw">Tweets by lab_ferrari</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+\
+
+## <i class='fas fa-camera'></i> Photos 
+
+Coming soon
+
+\
+
+
+##  <i class='fas fa-bookmark'></i> Navigate
+
+\
+
+
+### Ferrari Lab Links
+
+\
+
+<i class='fas fa-users'></i> [About Us](about.html)\
+Meet our team and collaborators
+
+<i class='fas fa-flask'></i> [Projects and Publications](projects.html)\
+Explore our ongoing projects and publications 
+
+<i class='fas fa-vial'></i> [Cardiothoracic Biobank Inquiries](biobank.html)\
+Information about our collected biobank specimens
+
+<i class='fas fa-cubes'></i> [Research Program for Residents](program.html)\
+Learn about our program for surgical residents interested in a career in translational science
+
+\
+
+### Columbia University Links
+
+\
+
+<i class='fas fa-laptop'></i> [Ferrari Lab – Columbia Biobank for Translational Science](https://columbiasurgery.org/research/ferrari-lab)\
+Columbia University Ferrari lab website
+
+---
+
+<i class='fas fa-hospital-symbol'></i> [Columbia Cardiac Surgery](https://columbiasurgery.org/heart)\
+Meet the surgeons from the Columbia Cardiac Surgery team
+
+<i class='fas fa-stethoscope'></i> [Columbia Integrated Cardiothoracic Surgery Residency Program (I-6)](https://columbiasurgery.org/cardiothoracic-training)\
+Learn about the Columbia Integrated Cardiothoracic Surgery residency program
+
+---
+
+<i class="fa fa-hospital-o" aria-hidden="true"></i> [Columbia General Surgery](https://columbiasurgery.org/)\
+Meet the surgeons from the Columbia General Surgery team
+
+
+
+<i class='fas fa-procedures'></i> [Columbia Surgery Residency Program](https://columbiasurgery.org/general-surgery-residency)\
+Learn about the Columbia General Surgery residency program
+
+
+\
+
+</body>
+
+
+\
+
+\
+
+\
+
+\
+
+<p style="text-align:right;font-size:12px;">*Website built by A Abramov, Oct 2021*</p>
+
+
