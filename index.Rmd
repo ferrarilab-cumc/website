@@ -56,7 +56,8 @@ editor_options:
 
 <div id="demobox">
 
-[Yingfei Xue PhD](about.html) manuscript  <i class="fas fa-file-alt"></i>  \
+December 2021\
+[Yingfei Xue PhD](about.html) manuscript <i class="fas fa-file-alt"></i>  \
 "Age-related enhanced degeneration of bioprosthetic valves due to leaflet calcification, tissue crosslinking, and structural changes" was accepted for publication in [Cardiovascular Research](https://academic.oup.com/cardiovascres).
 
 </div>
@@ -66,7 +67,7 @@ editor_options:
 <div id="demobox">
 
 December 2021\
-<i class="fas fa-wifi"></i> Launched Ferrari Lab website!
+Launched Ferrari Lab website! <i class='fas fa-wifi'></i>
 
 </div>
 
@@ -75,7 +76,7 @@ December 2021\
 <div id="demobox">
 
 November 2021\
-[Estibaliz Castillero PhD](about.html) presented <i class="fas fa-microphone-alt"></i> \
+[Estibaliz Castillero PhD](about.html) presented <i class="fas fa-microphone-alt"></i> her research on \
 "Serotonin Transporter Deficiency Leads to a Specific Fibrotic Pattern in Valvular and Myocardial Tissue" at the American Heart Association (AHA) annual meeting.
 
 </div>
@@ -85,8 +86,8 @@ November 2021\
 <div id="demobox">
 
 October 2021\
-[Alexey Abramov MD](about.html) will present <i class="fas fa-microphone-alt"></i> \
-"Extracorporeal Membrane Oxygenation (ECMO) Support in Patients with Covid-19: A Historical Control Propensity Score Matched Study" at the annual meeting for the Society of Thoracic Surgeons (STS) in Miami, FL.  
+[Alexey Abramov MD](about.html) was invited to present <i class="fas fa-microphone-alt"></i> \
+"Extracorporeal Membrane Oxygenation (ECMO) Support in Patients with Covid-19: A Historical Control Propensity Score Matched Study" at the annual meeting for the Society of Thoracic Surgeons (STS) in Miami, FL in January 2022.  
 </div>
 
 
