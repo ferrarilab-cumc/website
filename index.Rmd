@@ -51,8 +51,6 @@ editor_options:
 
 ## <i class='fas fa-rss-square'></i> Lab News
 
-
-
 \
 
 <div id="demobox">
