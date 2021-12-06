@@ -51,12 +51,23 @@ editor_options:
 
 ## <i class='fas fa-rss-square'></i> Lab News
 
+
+
 \
 
 <div id="demobox">
 
 December 2021\
 Launched Ferrari Lab website.
+
+</div>
+
+\
+
+<div id="demobox">
+
+November 2021\
+Estibaliz Castillero PhD presented "Serotonin Transporter Deficiency Leads to a Specific Fibrotic Pattern in Valvular and Myocardial Tissue" at the American Heart Association (AHA) annual meeting.
 
 </div>
 
