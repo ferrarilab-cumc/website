@@ -57,8 +57,7 @@ editor_options:
 <div id="demobox">
 
 December 2021\
-[Yingfei Xue PhD](about.html) manuscript <i class="fas fa-file-alt"></i>  \
-"Age-related enhanced degeneration of bioprosthetic valves due to leaflet calcification, tissue crosslinking, and structural changes" was accepted for publication in [Cardiovascular Research](https://academic.oup.com/cardiovascres).
+[Yingfei Xue's PhD](about.html) manuscript <i class="fas fa-file-alt"></i> "Age-related enhanced degeneration of bioprosthetic valves due to leaflet calcification, tissue crosslinking, and structural changes" was accepted for publication in [Cardiovascular Research](https://academic.oup.com/cardiovascres).
 
 </div>
 
@@ -76,8 +75,7 @@ Launched Ferrari Lab website! <i class='fas fa-wifi'></i>
 <div id="demobox">
 
 November 2021\
-[Estibaliz Castillero PhD](about.html) presented <i class="fas fa-microphone-alt"></i> her research on \
-"Serotonin Transporter Deficiency Leads to a Specific Fibrotic Pattern in Valvular and Myocardial Tissue" at the American Heart Association (AHA) annual meeting.
+[Estibaliz Castillero PhD](about.html) presented <i class="fas fa-microphone-alt"></i> her research on [Serotonin Transporter Deficiency Leads to a Specific Fibrotic Pattern in Valvular and Myocardial Tissue](https://www.ahajournals.org/doi/10.1161/ATVBAHA.121.316111) at the [American Heart Association](https://professional.heart.org/en/meetings/scientific-sessions) annual meeting.
 
 </div>
 
@@ -86,8 +84,8 @@ November 2021\
 <div id="demobox">
 
 October 2021\
-[Alexey Abramov MD](about.html) was invited to present <i class="fas fa-microphone-alt"></i> \
-"Extracorporeal Membrane Oxygenation (ECMO) Support in Patients with Covid-19: A Historical Control Propensity Score Matched Study" at the annual meeting for the Society of Thoracic Surgeons (STS) in Miami, FL in January 2022.  
+[Alexey Abramov MD](about.html) was invited to present <i class="fas fa-microphone-alt"></i>
+"Extracorporeal Membrane Oxygenation (ECMO) Support in Patients with Covid-19: A Historical Control Propensity Score Matched Study" at the annual meeting of the [Society of Thoracic Surgeons](https://www.sts.org/meetings/calendar-of-events/sts-58th-annual-meeting) in Miami, FL in January 2022.  
 </div>
 
 
