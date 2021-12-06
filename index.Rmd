@@ -55,7 +55,7 @@ editor_options:
 
 <div id="demobox">
 
-October 2021\
+December 2021\
 Launched Ferrari Lab website.
 
 </div>
