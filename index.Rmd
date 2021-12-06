@@ -65,7 +65,8 @@ Launched Ferrari Lab website.
 <div id="demobox">
 
 November 2021\
-Estibaliz Castillero PhD presented "Serotonin Transporter Deficiency Leads to a Specific Fibrotic Pattern in Valvular and Myocardial Tissue" at the American Heart Association (AHA) annual meeting.
+Estibaliz Castillero PhD presented\
+"Serotonin Transporter Deficiency Leads to a Specific Fibrotic Pattern in Valvular and Myocardial Tissue" at the American Heart Association (AHA) annual meeting.
 
 </div>
 
@@ -74,7 +75,8 @@ Estibaliz Castillero PhD presented "Serotonin Transporter Deficiency Leads to a 
 <div id="demobox">
 
 October 2021\
-Alexey Abramov's abstract "Extracorporeal Membrane Oxygenation (ECMO) Support in Patients with Covid-19: A Historical Control Propensity Score Matched Study" was accepted for an oral presentation at the annual meeting for the Society of Thoracic Surgeons (STS) in Miami, FL.  
+Alexey Abramov's abstract\
+"Extracorporeal Membrane Oxygenation (ECMO) Support in Patients with Covid-19: A Historical Control Propensity Score Matched Study" was accepted for an oral presentation at the annual meeting for the Society of Thoracic Surgeons (STS) in Miami, FL.  
 </div>
 
 
