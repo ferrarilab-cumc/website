@@ -248,7 +248,7 @@ The technology aims to extend BHV lifespans by chemically modifying BHV tissues 
 
 &nbsp;
 <hr />
-<p style="text-align: center;">Created by <a href="https:www.abramovmd.com">Alexey Abramov MD</a></p>
+<p style="text-align: center;">Created by Alexey Abramov MD</a></p>
 <p style="text-align: center;"><span style="color: #808080;"><em>aa3832@cumc.columbia.edu</em></span></p>
 
 <!-- Add font awesome icons -->
