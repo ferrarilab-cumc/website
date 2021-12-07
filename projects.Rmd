@@ -16,7 +16,7 @@ editor_options:
 
 \
 
-# Mitral Valve \
+# <a id="Mitral"></a>Mitral Valve \
 
 ## Myxomatous Mitral Valve Disease
 
@@ -60,7 +60,7 @@ Ischemic mitral regurgitation (IMR) often develops after an ischemic event, whic
 
 \
 
-# Aortic Valve\
+# <a id="AV"></a>Aortic Valve\
 
 ## Calcific Aortic Valve Disease\
 
@@ -81,7 +81,7 @@ This program is concerned with modulating oxidative glycation reactions in speci
 
 \
 
-# Aorta\
+# <a id="Aorta"></a>Aorta\
 
 ## Aortic Aneurysm and Dissection\
 
@@ -112,7 +112,7 @@ Bicuspid Aortic Valve (BAV) syndrome is associated with frequent and premature o
 
 
 
-# Biomedical Engineering
+# <a id="BME"></a>Biomedical Engineering
 
 ## Glycation-mediated Mechanisms of Bioprosthetic Heart Valve Failure\
 
@@ -182,7 +182,7 @@ Type 2 Diabetes mellitus (T2DM) is a well-known risk factor for heart valve dise
 \
 
 
-# Covid-19 Cardiac Injury
+# <a id="Covid19"></a>Covid-19 Cardiac Injury
 
 ## Mechanisms of Cardiac Remodeling in COVID-19 Patients
 
@@ -213,7 +213,7 @@ As a result of the COVID-19 pandemic, it has been shown that patients with pre-e
 
 
 
-# Surgical Innovation\
+# <a id="Innovation"></a>Surgical Innovation\
 
 \
 
