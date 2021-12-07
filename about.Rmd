@@ -288,8 +288,12 @@ General Surgery Resident	(2019-2020) \
 ![](images/levy.jpg){width=25%}
 
 ### Robert J. Levy, MD\
+Director of Cardiology Research\
+Program Director of the Cardiology National Heart, Lung, and Blood Institute (NHLBI) Research Training Grant\
 
 *Children's Hospital of Philadelphia*\
+
+\
 
 Levy is the director of Cardiology Research, and also serves as program director of the Cardiology [National Heart, Lung, and Blood Institute (NHLBI)](http://www.nhlbi.nih.gov) Research Training Grant. 
 
@@ -309,7 +313,7 @@ Florence Irving Assistant Professor of Surgery\
 Section of Pediatric & Congenital Cardiac Surgery\
 Director, Pediatric Heart Valve Center\
 Surgical Director, Initiative for Pediatric Cardiac Innovation\
-Columbia University College of Physicians and Surgeons\
+*Columbia University College of Physicians and Surgeons*\
 
 \
 
@@ -326,6 +330,8 @@ The proposed research is relevant to public health because a biostable polymeric
 ### Micheal S Sacks, PhD\
 
 *University of Texas at Austin*
+
+\
 
 The bicuspid aortic valve (BAV) is the most common cardiac congenital anomaly. Due to the widespread availability and routine use of screening echocardiography, development of clinical methods for the identification of asymptomatic young patients with BAV is now realistic. We thus plan to develop sensitive, clinically derivable functional indices that will yield clinically relevant patient- specific strategies for identifying BAV patients at high risk.\
 
@@ -346,7 +352,7 @@ The bicuspid aortic valve (BAV) is the most common cardiac congenital anomaly. D
 
 *Canadian Institute of Research and Health (CIHR) Fellowship (2021-2023)*\
 
-
+\
 
 Identification of Molecular Pathways that Protect Against Atherosclerosis
 Coronary artery disease (CAD) is one of the leading causes of cardiovascular death worldwide. Current treatments for CAD include lifestyle modifications and medical therapies to reduce its risk factors. When these methods fail, more invasive interventions, such as placement of a stent to restore blood flow or performance of a coronary artery bypass graft surgery, are used. This latter procedure aims at bypassing the blocked area using either veins or arteries. The use of arterial grafts is associated with a better long-term patency and a reduced rate of progression of atherosclerosis when compared to vein grafts. Yet, the exact molecular mechanisms by which arteries are protected from disease progression are not well understood. This study aims to identify the underlying mechanisms that render arteries resistant to atherosclerosis.\
@@ -359,7 +365,10 @@ Coronary artery disease (CAD) is one of the leading causes of cardiovascular dea
 
 ### Juan B Grau, MD\
 
-*The Valley Hospital *
+Director, Cardiac Surgery\
+*The Valley Hospital *\
+
+\
 
 
 Dr. Grau's work blends clinical knowledge and expertise with the tools of basic science to find new approaches to clinically relevant problems. He serves as a reviewer for the Annals of Thoracic Surgery, Journal of the American Heart Association, Circulation, and the British Heart Foundation, among others.\
@@ -370,10 +379,11 @@ Dr. Grau's work blends clinical knowledge and expertise with the tools of basic 
 ![](images/witschey_walter.jpg){width=25%}
 
 ### Walter R. Witschey, PhD\
-
-*University of Pennsylvania*\
 Associate Professor of Radiology\
 Director of the Advanced Cardiovascular Imaging Lab at the University of Pennsylvania\
+*University of Pennsylvania*\
+
+\
 
 Theoretical and applied advanced imaging, especially magnetic resonance imaging and quantitative cardiovascular imaging.
 
@@ -392,7 +402,7 @@ Theoretical and applied advanced imaging, especially magnetic resonance imaging 
 
 &nbsp;
 <hr />
-<p style="text-align: center;">Created by <a href="https:www.abramovmd.com">Alexey Abramov MD</a></p>
+<p style="text-align: center;">Created by Alexey Abramov MD</a></p>
 <p style="text-align: center;"><span style="color: #808080;"><em>aa3832@cumc.columbia.edu</em></span></p>
 
 <!-- Add font awesome icons -->
