@@ -48,8 +48,8 @@ My main research interests are in heart valve and vascular cell physiology, card
 #  Ferrari Lab Members 
 
 \
-
-### <a id="Scientists"></a>Associate Research Scientists
+<a id="Scientists"></a>
+### Associate Research Scientists
 
 \
 
@@ -86,8 +86,8 @@ Dr. Camillo is a cellular biologist studying the molecular mechanisms that regul
 ---
 
 \
-
-### <a id="PostDocs"></a>Postdoctoral Research Fellows	
+<a id="PostDocs"></a>
+### Postdoctoral Research Fellows	
 
 \
 
@@ -112,7 +112,7 @@ His research goal is to better understand the mechanisms of cardiovascular impla
 ---
 
 \
-
+<a id="SurgRes"></a>
 ### Surgical Residents
 
 \
