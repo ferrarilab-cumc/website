@@ -1,10 +1,9 @@
+<div class="footer"> 
+
 &nbsp;
 <hr />
 <p style="text-align: center;">Created by <a href="https:www.abramovmd.com">Alexey Abramov MD</a></p>
 <p style="text-align: center;"><span style="color: #808080;"><em>aa3832@cumc.columbia.edu</em></span></p>
-
-<!-- Add icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- Add font awesome icons -->
 <p style="text-align: center;">
@@ -14,3 +13,5 @@
 </p>
 
 &nbsp;
+
+</div>
