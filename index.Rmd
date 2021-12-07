@@ -58,7 +58,7 @@ editor_options:
 <div id="demobox">
 
 December 2021\
-[Yingfei Xue's PhD](about.html) manuscript <i class="fas fa-file-alt"></i> "Age-related enhanced degeneration of bioprosthetic valves due to leaflet calcification, tissue crosslinking, and structural changes" was accepted for publication in [Cardiovascular Research](https://academic.oup.com/cardiovascres).
+[Yingfei Xue's PhD](about.html#PostDocs) manuscript <i class="fas fa-file-alt"></i> "Age-related enhanced degeneration of bioprosthetic valves due to leaflet calcification, tissue crosslinking, and structural changes" was accepted for publication in [Cardiovascular Research](https://academic.oup.com/cardiovascres).
 
 </div>
 
@@ -76,7 +76,7 @@ Launched Ferrari Lab website! <i class='fas fa-wifi'></i>
 <div id="demobox">
 
 November 2021\
-[Estibaliz Castillero PhD](about.html) presented <i class="fas fa-microphone-alt"></i> her research on [Serotonin Transporter Deficiency Leads to a Specific Fibrotic Pattern in Valvular and Myocardial Tissue](https://www.ahajournals.org/doi/10.1161/ATVBAHA.121.316111) at the [American Heart Association](https://professional.heart.org/en/meetings/scientific-sessions) annual meeting.
+[Estibaliz Castillero PhD](about.html#Scientists) presented <i class="fas fa-microphone-alt"></i> her research on [Serotonin Transporter Deficiency Leads to a Specific Fibrotic Pattern in Valvular and Myocardial Tissue](https://www.ahajournals.org/doi/10.1161/ATVBAHA.121.316111) at the [American Heart Association](https://professional.heart.org/en/meetings/scientific-sessions) annual meeting.
 
 </div>
 
