@@ -7,6 +7,7 @@ output:
     toc_float: true
     includes:
       in_header: hero-image.html
+      after_body: footer.html
 editor_options: 
   chunk_output_type: console
 ---

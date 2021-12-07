@@ -7,6 +7,8 @@ output:
     toc: true
     toc_float: true
     number_sections: false
+    includes:
+      after_body: footer.html
 editor_options: 
   chunk_output_type: console
 ---
@@ -387,9 +389,6 @@ Theoretical and applied advanced imaging, especially magnetic resonance imaging 
 \
 
 \
-
-<p style="text-align:right;font-size:12px;">*Website built by A Abramov, Oct 2021*</p>
-
 
 </body>
 
