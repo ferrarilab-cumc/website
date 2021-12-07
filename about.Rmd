@@ -25,7 +25,7 @@ editor_options:
 
 ![](images/ferrari.jpg){width=25%}
 
-### Giovanni Ferrari, PhD 
+### *Giovanni Ferrari, PhD* 
 
 First-generation graduate at the [U of Pavia](https://web-en.unipv.it) (2003), I am a group leader and Associate Professor (with tenure) at Columbia University, [Department of Surgery](https://columbiasurgery.org/research) and [School of Biomedical Engineering](https://www.bme.columbia.edu). \
 
@@ -102,10 +102,6 @@ His research goal is to better understand the mechanisms of cardiovascular impla
 <i class="fa fa-telegram"></i>  [Email](mailto:<yx2529@cumc.columbia.edu>)\
 
 <i class="fa fa-book"></i>  [Google Scholar](https://scholar.google.com/citations?user=W8-jXZ0AAAAJ&hl=en)
-
-\
-
-#### *Antonio Frasca, PhD*
 
 \
 
@@ -264,18 +260,23 @@ Life's not ruff when I am around. Woof
 
 \
 
-#### Alex P Kossar MD	\
+#### Antonio Frasca, PhD \
+T-32 Postdoctoral Research Fellow	(2016-2021)\
+
+\
+
+#### Alex P Kossar, MD	\
 
 General Surgery Resident	(2018-2020)\
 
 \
 
-#### Alex D’Angelo MD	\
+#### Alex D’Angelo, MD	\
 CT Surgery Resident		(2019-2020)\
 
 \
 
-#### Matteo Marro MD	\
+#### Matteo Marro, MD	\
 General Surgery Resident	(2019-2020) \
 
 \
@@ -322,7 +323,7 @@ The proposed research is relevant to public health because a biostable polymeric
 
 ![](images/sacks.jpg){width=25%}
 
-### Micheal S Sacks PhD\
+### Micheal S Sacks, PhD\
 
 *University of Texas at Austin*
 
@@ -339,7 +340,7 @@ The bicuspid aortic valve (BAV) is the most common cardiac congenital anomaly. D
 
 ![](images/Lara-Gharibeh.jpg){width=25%}
 
-### Lara Garibeh PhD\
+### Lara Garibeh, PhD\
 
 *University of Ottawa Heart Institute*
 
@@ -356,7 +357,7 @@ Coronary artery disease (CAD) is one of the leading causes of cardiovascular dea
 
 ![](images/grau.jpg){width=25%}
 
-### Juan B Grau MD\
+### Juan B Grau, MD\
 
 *The Valley Hospital *
 
