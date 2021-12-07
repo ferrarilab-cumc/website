@@ -1,4 +1,5 @@
 ---
+title:  Ferrari Lab at Columbia University
 output: 
   html_document:
     title:  Ferrari Lab at Columbia University
