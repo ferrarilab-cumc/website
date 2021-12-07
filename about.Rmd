@@ -27,7 +27,7 @@ editor_options:
 
 ### Giovanni Ferrari, PhD 
 
-First-generation graduate at the [U of Pavia](https://web-en.unipv.it) (2003), I am a group leader and Associate Professor (with tenure) in the Columbia University, [Department of Surgery](https://columbiasurgery.org/research) and [School of Biomedical Engineering](https://www.bme.columbia.edu). \
+First-generation graduate at the [U of Pavia](https://web-en.unipv.it) (2003), I am a group leader and Associate Professor (with tenure) at Columbia University, [Department of Surgery](https://columbiasurgery.org/research) and [School of Biomedical Engineering](https://www.bme.columbia.edu). \
 
 I am the Scientific Director of the [Cardiothoracic Research Program and Director of the Columbia Biobank for Translational Science](https://columbiasurgery.org/research/ferrari-lab), an applied biobank supporting translational and precision medicine initiatives.\
 
