@@ -20,7 +20,12 @@ editor_options:
 
 The Columbia Biobank for Translational Science – CBTS is an applied biobank supporting translational and precision medicine initiatives for adult and pediatric cardiothoracic research.\
 
+<center>
+
+
 ![](images/biobank_cropped.png){width=85%}
+
+</center>
 
 Established in 2017 it included specimens collected from patients undergoing cardiothoracic surgery at CUIMC and CHONY. Frozen and paraffin tissues, primary-derived cells, RNA, DNA, serum, plasma as well as clinical and imaging data are collected by our clinical coordinators upon informed consent.  CBTS shares clinical data with partner biobanks at the University of Pennsylvania, University of Texas, University of Ottawa, Valley Hospital, and a quickly expanding list of national and international research partners./
 
