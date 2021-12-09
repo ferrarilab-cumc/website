@@ -106,6 +106,7 @@ In 2006 the John Jones Surgical Society established the John Jones Fellowship Fu
     <a href="https://twitter.com/aabramov_md?lang=en" class="fa fa-twitter"></a>
     <a href="https://www.linkedin.com/in/abramovmd/" class="fa fa-linkedin"></a>
     <a href="https://github.com/aabramov90/" class="fa fa-github"></a>
+<p style="text-align: center;">&copy; Copyright 2021, Ferrari Lab at Columbia University</a>
 </p>
 
 &nbsp;
