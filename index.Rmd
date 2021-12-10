@@ -43,7 +43,7 @@ editor_options:
 
 <center>
 
-[![Learn About Our Research Projects](images/research.png)](about.html){width=65%}
+[![Learn About Our Research Projects](images/research.png)](projects.html){width=65%}
 
 </center>
 
