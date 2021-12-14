@@ -31,7 +31,7 @@ editor_options:
 
 \
 
-![](images/empire-state-building-david-dini-columbia.jpg){width=80%}
+[![New York City](images/empire-state-building-david-dini-columbia.jpg)](https://www.cuimc.columbia.edu/){width=80%}
 \
 
 <font size="2"> *Photo: David Dini, Columbia University*
