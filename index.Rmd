@@ -61,7 +61,7 @@ editor_options:
 <div id="demobox">
 
 December 2021\
-[Yingfei Xue's PhD](about.html#PostDocs) manuscript <i class="fas fa-file-alt"></i> "Age-related enhanced degeneration of bioprosthetic valves due to leaflet calcification, tissue crosslinking, and structural changes" was accepted for publication in [Cardiovascular Research](https://academic.oup.com/cardiovascres).
+[Yingfei Xue's PhD](about.html#PostDocs) manuscript <i class="fas fa-file-alt"></i> "Age-related enhanced degeneration of bioprosthetic valves due to leaflet calcification, tissue crosslinking, and structural changes" was accepted for publication in [Cardiovascular Research](https://academic.oup.com/cardiovascres/advance-article/doi/10.1093/cvr/cvac002/6502282?login=true).
 
 </div>
 
