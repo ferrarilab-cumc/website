@@ -60,20 +60,8 @@ editor_options:
 
 <div id="demobox">
 
-May 2022\
-[Alexey Abramov MD MS](about.html#PostDocs) and [Mar Martinez Mas MS](about.html#Students) graduated <i class="fa-solid fa-user-graduate"></i> from their Columbia University masters programs.  
-
-</div>
-
-\
-
-
-\
-
-<div id="demobox">
-
-May 2022\
-Ferrari Lab [Surgical Residents](about.html#SurgRes) Alexey Abramov MD, Clinton Erwin MD, Dov Levine MD, and Michael Simpson MD all  presented <i class="fas fa-microphone-alt"></i> their research at the [American Association for Thoracic Surgery](https://events.aats.org/102nd-annual-meeting) 102nd Annual Meeting in Boston, MA.
+May 2022 <i class="fas fa-solid fa-user-graduate"></i>\
+[Alexey Abramov MD MS](about.html#PostDocs) and [Mar Martinez Mas MBE](about.html#Students) graduated from their Columbia University masters programs!    
 
 </div>
 
@@ -81,8 +69,8 @@ Ferrari Lab [Surgical Residents](about.html#SurgRes) Alexey Abramov MD, Clinton 
 
 <div id="demobox">
 
-December 2021\
-[Yingfei Xue's PhD](about.html#PostDocs) manuscript <i class="fas fa-file-alt"></i> "Age-related enhanced degeneration of bioprosthetic valves due to leaflet calcification, tissue crosslinking, and structural changes" was accepted for publication in [Cardiovascular Research](https://academic.oup.com/cardiovascres/advance-article/doi/10.1093/cvr/cvac002/6502282?login=true).
+May 2022 <i class="fas fa-microphone-alt"></i>\
+Ferrari Lab [Surgical Residents](about.html#SurgRes) Alexey Abramov MD, Clinton Erwin MD, Dov Levine MD, and Michael Simpson MD all  presented  their research at the [American Association for Thoracic Surgery](https://events.aats.org/102nd-annual-meeting) 102nd Annual Meeting in Boston, MA.
 
 </div>
 
@@ -90,8 +78,8 @@ December 2021\
 
 <div id="demobox">
 
-December 2021\
-Launched Ferrari Lab website! <i class='fas fa-wifi'></i>
+December 2021 <i class="fas fa-file-alt"></i>\
+[Yingfei Xue's PhD](about.html#PostDocs) manuscript  "Age-related enhanced degeneration of bioprosthetic valves due to leaflet calcification, tissue crosslinking, and structural changes" was accepted for publication in [Cardiovascular Research](https://academic.oup.com/cardiovascres/advance-article/doi/10.1093/cvr/cvac002/6502282?login=true).
 
 </div>
 
@@ -99,8 +87,17 @@ Launched Ferrari Lab website! <i class='fas fa-wifi'></i>
 
 <div id="demobox">
 
-November 2021\
-[Estibaliz Castillero PhD](about.html#Scientists) presented <i class="fas fa-microphone-alt"></i> her research on [Serotonin Transporter Deficiency Leads to a Specific Fibrotic Pattern in Valvular and Myocardial Tissue](https://www.ahajournals.org/doi/10.1161/ATVBAHA.121.316111) at the [American Heart Association](https://professional.heart.org/en/meetings/scientific-sessions) annual meeting.
+December 2021 <i class='fas fa-wifi'></i>\
+Launched Ferrari Lab website! 
+
+</div>
+
+\
+
+<div id="demobox">
+
+November 2021 <i class="fas fa-microphone-alt"></i>\
+[Estibaliz Castillero PhD](about.html#Scientists) presented  her research on [Serotonin Transporter Deficiency Leads to a Specific Fibrotic Pattern in Valvular and Myocardial Tissue](https://www.ahajournals.org/doi/10.1161/ATVBAHA.121.316111) at the [American Heart Association](https://professional.heart.org/en/meetings/scientific-sessions) annual meeting.
 
 </div>
 
