@@ -61,7 +61,19 @@ editor_options:
 <div id="demobox">
 
 May 2022\
-Ferrari Lab [Post-Docs](about.html#PostDocs) Alexey Abramov MD, Clinton Erwin MD, Dov Levine MD, and Michael Simpson MD all  presented <i class="fas fa-microphone-alt"></i> their research at the [American Association for Thoracic Surgery](https://events.aats.org/102nd-annual-meeting) 102nd Annual Meeting in Boston, MA.
+[Alexey Abramov MD MS](about.html#PostDocs) and [Mar Martinez Mas MS](about.html#Students) graduated <i class="fa-solid fa-user-graduate"></i> from their Columbia University masters programs.  
+
+</div>
+
+\
+
+
+\
+
+<div id="demobox">
+
+May 2022\
+Ferrari Lab [Surgical Residents](about.html#SurgRes) Alexey Abramov MD, Clinton Erwin MD, Dov Levine MD, and Michael Simpson MD all  presented <i class="fas fa-microphone-alt"></i> their research at the [American Association for Thoracic Surgery](https://events.aats.org/102nd-annual-meeting) 102nd Annual Meeting in Boston, MA.
 
 </div>
 
