@@ -13,7 +13,7 @@
 
 <title>Research Program for Residents</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
@@ -63,6 +63,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="style2.css" type="text/css" />
 
 
@@ -87,6 +88,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -144,11 +148,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -315,7 +323,7 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -359,7 +367,7 @@ div.tocify {
 <div id="header">
 
 <div class="btn-group pull-right float-right">
-<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
 <ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
 <li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
 <li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
@@ -369,7 +377,8 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">Research Program for Residents</h1>
-<h3 class="subtitle"><em>Columbia University Irving Medical Center Cardiothoracic Surgery Research Program</em></h3>
+<h3 class="subtitle"><em>Columbia University Irving Medical Center
+Cardiothoracic Surgery Research Program</em></h3>
 
 </div>
 
@@ -382,14 +391,37 @@ div.tocify {
 </p>
 <div id="information" class="section level2">
 <h2>Information</h2>
-<p>We are offering a training strategy and research mentoring plan for MD-Resident-Investigators at Columbia University Irving Medical Center (CUIMC), whose major interest is the treatment and prevention of heart, lung, and blood diseases, and their related co-morbidities, such as diabetes, atherosclerosis, immunodeficiencies, and environmental hazards. There is a known great need for intense residency training and research mentoring for young academic physician-scientists of the future.</p>
-<p>The rapid evolution of innovation in cardiothoracic, blood, and sleep diseases, based on contributions from various fields of basic and translational science, is adding new challenges for researchers who will form the next generation of academic physicians. Critical new scientific knowledge and techniques offer greater challenges to the life of future clinicians and require their understanding and use of advanced educational tools in order for them to better predict, prevent, preempt, treat, and cure these diseases. Thus we developed our program around three major goals:</p>
+<p>We are offering a training strategy and research mentoring plan for
+MD-Resident-Investigators at Columbia University Irving Medical Center
+(CUIMC), whose major interest is the treatment and prevention of heart,
+lung, and blood diseases, and their related co-morbidities, such as
+diabetes, atherosclerosis, immunodeficiencies, and environmental
+hazards. There is a known great need for intense residency training and
+research mentoring for young academic physician-scientists of the
+future.</p>
+<p>The rapid evolution of innovation in cardiothoracic, blood, and sleep
+diseases, based on contributions from various fields of basic and
+translational science, is adding new challenges for researchers who will
+form the next generation of academic physicians. Critical new scientific
+knowledge and techniques offer greater challenges to the life of future
+clinicians and require their understanding and use of advanced
+educational tools in order for them to better predict, prevent, preempt,
+treat, and cure these diseases. Thus we developed our program around
+three major goals:</p>
 <ol style="list-style-type: decimal">
-<li><p>To identify, recruit and foster research trainees of clinician-investigators with strong clinical, research motivation, and diverse background to perform basic, clinical and/or translational research<br />
+<li><p>To identify, recruit and foster research trainees of
+clinician-investigators with strong clinical, research motivation, and
+diverse background to perform basic, clinical and/or translational
+research<br />
 </p></li>
-<li><p>To design and conduct rigorous hypothesis-driven research that encompasses the prediction, prevention, preemption, treatment of cardiothoracic disorders and provide guidance for structured learning opportunities<br />
+<li><p>To design and conduct rigorous hypothesis-driven research that
+encompasses the prediction, prevention, preemption, treatment of
+cardiothoracic disorders and provide guidance for structured learning
+opportunities<br />
 </p></li>
-<li><p>To translate effective pre-clinical studies into subsequent clinical fellowships and training awards, clinical trials, or commercial opportunities</p></li>
+<li><p>To translate effective pre-clinical studies into subsequent
+clinical fellowships and training awards, clinical trials, or commercial
+opportunities</p></li>
 </ol>
 <p><br />
 </p>
@@ -404,8 +436,17 @@ div.tocify {
 </div>
 <div id="training-grants" class="section level2">
 <h2>Training Grants</h2>
-<p>The Department of Surgery promotes an enrichment program for residents to pursue research. Such a program varies in length, from a few months (supported by internal and extramural resources provided by the Division of Surgical Science) to multiple years (via the co-PI’s NIH-NHLBI T32 training grant and other federal training grants).</p>
-<p>Residents are introduced to the Research Opportunities by the Residency program directors and by the leaders of the Research Centers of the Division of Surgical Science. During PGY2 and PGY3 they interact with several mentors, choose a track (Basic, Translational, or Outcomes) and prepare a research proposal which is evaluated by the Department of Surgery Research Committee.</p>
+<p>The Department of Surgery promotes an enrichment program for
+residents to pursue research. Such a program varies in length, from a
+few months (supported by internal and extramural resources provided by
+the Division of Surgical Science) to multiple years (via the co-PI’s
+NIH-NHLBI T32 training grant and other federal training grants).</p>
+<p>Residents are introduced to the Research Opportunities by the
+Residency program directors and by the leaders of the Research Centers
+of the Division of Surgical Science. During PGY2 and PGY3 they interact
+with several mentors, choose a track (Basic, Translational, or Outcomes)
+and prepare a research proposal which is evaluated by the Department of
+Surgery Research Committee.</p>
 <p><br />
 </p>
 <hr />
@@ -414,13 +455,29 @@ div.tocify {
 </div>
 <div id="application-process" class="section level2">
 <h2>Application Process</h2>
-<p><u><strong>August - September</strong></u>: Applicants are invited to contact the PI via email and submit a full CV, a 1-page Research Statement, and the names of two references<br />
+<p><u><strong>August - September</strong></u>: Applicants are invited to
+contact the PI via email and submit a full CV, a 1-page Research
+Statement, and the names of two references<br />
 </p>
-<p><u><strong>October - November</strong></u>: Interviews with Dr. Ferrari and the Leadership of the Dept of Surgery. Identification of possible clinical co-mentor(s) and research project(s).<br />
+<p><u><strong>October - November</strong></u>: Interviews with
+Dr. Ferrari and the Leadership of the Dept of Surgery. Identification of
+possible clinical co-mentor(s) and research project(s).<br />
 </p>
-<p><u><strong>February - March</strong></u>: Selection of trainees and visit to Columbia. Meeting with PI, co-investigators, clinical co-mentor(s), and visit to the Lab<br />
+<p><u><strong>February - March</strong></u>: Selection of trainees and
+visit to Columbia. Meeting with PI, co-investigators, clinical
+co-mentor(s), and visit to the Lab<br />
 </p>
-<p><u><strong>Mid-June</strong></u>: Applicants are invited to attend the annual DOS Research Symposium. Each year, in June, each Resident-Investigator will attend a retreat with senior faculty members on this program sponsored by the Department of Surgery at the Roy and Diana Vagelos Education Center. A keynote lecture from an internationally recognized speaker will open the Symposium. A specific section will be dedicated to the Resident-Investigators who will present their research. The retreat is also a powerful networking opportunity for resident-investigator to learn and interact with senior academic physicians. The Research and Advanced Education Committee will provide feedback to the Resident-Investigators./</p>
+<p><u><strong>Mid-June</strong></u>: Applicants are invited to attend
+the annual DOS Research Symposium. Each year, in June, each
+Resident-Investigator will attend a retreat with senior faculty members
+on this program sponsored by the Department of Surgery at the Roy and
+Diana Vagelos Education Center. A keynote lecture from an
+internationally recognized speaker will open the Symposium. A specific
+section will be dedicated to the Resident-Investigators who will present
+their research. The retreat is also a powerful networking opportunity
+for resident-investigator to learn and interact with senior academic
+physicians. The Research and Advanced Education Committee will provide
+feedback to the Resident-Investigators./</p>
 <p><u><strong>July 1st</strong></u>: PGY lab year(s) begins<br />
 </p>
 <p><br />
@@ -431,9 +488,25 @@ div.tocify {
 </div>
 <div id="john-jones-surgical-society" class="section level2">
 <h2>John Jones Surgical Society</h2>
-<p><a href="https://columbiasurgery.org/alumni/john-jones-surgical-society"><em>John Jones Surgical Society</em></a></p>
-<p>The John Jones Surgical Society. The Society is an organization named after the author of the first surgical textbook in the colonies and our first Professor of Surgery. At its annual meetings The Society recognizes with awards outstanding residents with major accomplishments in research, surgical education, and in clinical service.</p>
-<p>In 2006 the John Jones Surgical Society established the John Jones Fellowship Fund within the Department of Surgery at Columbia University to generate support for young surgeon-researchers and surgeon-educators through a formal process. The Society’s goal is to support basic and clinical research initiatives at the resident level. The fund currently supports the research activities of one General Surgery resident annually, selected on a competitive basis. A Research Committee composed of 22 faculty members from the Department of Surgery and external scholars review grant submissions as part of the Department of Surgery’s Annual Startup Grant process which provides laboratory support awards.</p>
+<p><a
+href="https://columbiasurgery.org/alumni/john-jones-surgical-society"><em>John
+Jones Surgical Society</em></a></p>
+<p>The John Jones Surgical Society. The Society is an organization named
+after the author of the first surgical textbook in the colonies and our
+first Professor of Surgery. At its annual meetings The Society
+recognizes with awards outstanding residents with major accomplishments
+in research, surgical education, and in clinical service.</p>
+<p>In 2006 the John Jones Surgical Society established the John Jones
+Fellowship Fund within the Department of Surgery at Columbia University
+to generate support for young surgeon-researchers and surgeon-educators
+through a formal process. The Society’s goal is to support basic and
+clinical research initiatives at the resident level. The fund currently
+supports the research activities of one General Surgery resident
+annually, selected on a competitive basis. A Research Committee composed
+of 22 faculty members from the Department of Surgery and external
+scholars review grant submissions as part of the Department of Surgery’s
+Annual Startup Grant process which provides laboratory support
+awards.</p>
 <p><br />
 </p>
 <p><br />
@@ -446,14 +519,20 @@ div.tocify {
  
 <hr />
 <p style="text-align: center;">
-Created by <a href="https:www.abramovmd.com">Alexey Abramov MD</a>
+Created by Alexey Abramov MD</a>
 </p>
 <p style="text-align: center;">
-<span style="color: #808080;"><em><a href="mailto:aa3832@cumc.columbia.edu" class="email">aa3832@cumc.columbia.edu</a></em></span>
+<span style="color: #808080;"><em><a
+href="mailto:aa3832@cumc.columbia.edu"
+class="email">aa3832@cumc.columbia.edu</a></em></span>
 </p>
 <!-- Add font awesome icons -->
 <p style="text-align: center;">
-<a href="https://twitter.com/aabramov_md?lang=en" class="fa fa-twitter"></a> <a href="https://www.linkedin.com/in/abramovmd/" class="fa fa-linkedin"></a> <a href="https://github.com/aabramov90/" class="fa fa-github"></a>
+<a href="https://twitter.com/aabramov_md?lang=en" class="fa fa-twitter"></a>
+<a href="https://www.linkedin.com/in/abramovmd/" class="fa fa-linkedin"></a>
+<a href="https://github.com/aabramov90/" class="fa fa-github"></a>
+<p style="text-align: center;">
+© Copyright 2021, Ferrari Lab at Columbia University</a>
 </p>
 <p> </p>
 </div>

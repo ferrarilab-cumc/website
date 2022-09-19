@@ -166,25 +166,7 @@ Nicolò Vitale is cardiac surgery resident at [Università degli studi di Milano
 
 ### <a id="Biobank"></a>Biobank			
 
-\
 
-![](images/viv.jpg){width=25%}
-
-#### *Vivian Moreno*
-
-Vivian Moreno is the Clinical Research Coordinator for the Ferrari Lab. She completed her Bachelor’s of Science in Biomedical Science at the [University of Kent in Canterbury, England](https://www.kent.ac.uk). Her research background includes cancer research at Yale University and novel antimicrobial peptides at [NovaBiotics, Ltd](https://novabiotics.co.uk). Her favorite pastimes include playing the piano, volunteering, and working out at AARMY.
-
-<i class="fa fa-telegram"></i> [Email](mailto:<vmm2142@cumc.columbia.edu>)
-
-\
-
-![](images/Jessica.jpg){width=25%}
-
-#### *Jessica Tom*
-
-Jessica is a Research Technician in the Ferrari Lab. A native New Yorker, she completed her Bachelor’s of Science in Biology and Women’s Gender and Sexuality Studies at [Stony Brook University](https://www.stonybrook.edu). While at Stony Brook, she conducted research pertaining to Chronic Myelogenous Leukemia (CML) in the lab of Dr. Markus Seeliger. Her interest in cardiovascular diseases and prevention led her to the Ferrari Lab where she provides support to the biobank and various research projects. Her favorite pastimes include discovering new music, stand-up comedy specials, and baking. 
-
-<i class="fa fa-telegram"></i> [Email](mailto:<jessica.tom@alumni.stonybrook.edu>)
 
 ---
 
@@ -256,15 +238,33 @@ Life's not ruff when I am around. Woof
 
 ![](images/abramov.jpg){width=25%}
 
-#### *Alexey Abramov, MD*
+#### *Alexey Abramov, MD, MS*
 
-Alexey is a General Surgery resident in the [New York Presbyterian-Columbia](https://columbiasurgery.org/general-surgery-residency) program with an interest in cardiothoracic surgery fellowship and biomedical engineering.  He graduated from [Emory University](http://college.emory.edu/main/index.html) and received his MD from [New York Medical College](https://www.nymc.edu/school-of-medicine-som/). Currently, he is a NIH T32 post-doctoral research fellow in Dr. Ferrari's lab studying the underlying mechanisms of structural degeneration of bioprosthetic heart valves with next-generation proteomics. He is also pursuing a Master's degree in the Biostatistics at the [Columbia University Mailman School of Public Health](https://www.publichealth.columbia.edu/academics/degrees/master-science/clinical-research-methods). In his free time, he enjoys the outdoors, hiking, running, road cycling and skiing.
+Alexey is a General Surgery resident in the [New York Presbyterian-Columbia](https://columbiasurgery.org/general-surgery-residency) program with an interest in cardiothoracic surgery fellowship and biomedical engineering.  He graduated from [Emory University](http://college.emory.edu/main/index.html) and received his MD from [New York Medical College](https://www.nymc.edu/school-of-medicine-som/). He completed an NIH T32 post-doctoral research fellowship in Dr. Ferrari's lab studying the underlying mechanisms of structural degeneration of bioprosthetic heart valves with next-generation proteomics. While in the lab, he also completed a Master's degree in Biostatistics at the [Columbia University Mailman School of Public Health](https://www.publichealth.columbia.edu/academics/degrees/master-science/clinical-research-methods). In his free time, he enjoys the outdoors, hiking, running, road cycling and skiing.
 
 <i class="fa fa-telegram"></i> [Email](mailto:<aa3832@cumc.columbia.edu>)
 
 <i class="fa fa-twitter"></i> [Twitter](https://twitter.com/aabramov_MD)
 
 \
+
+![](images/viv.jpg){width=25%}
+
+#### *Vivian Moreno*
+
+Vivian Moreno was the Clinical Research Coordinator for the Ferrari Lab. She completed her Bachelor’s of Science in Biomedical Science at the [University of Kent in Canterbury, England](https://www.kent.ac.uk). Her research background included cancer research at Yale University and novel antimicrobial peptides at [NovaBiotics, Ltd](https://novabiotics.co.uk). She is now pursuing advanced training in Hofstra Cardiovascular Medicine and Perfusion program. 
+
+<i class="fa fa-telegram"></i> [Email](mailto:<vmm2142@cumc.columbia.edu>)
+
+\
+
+![](images/Jessica.jpg){width=25%}
+
+#### *Jessica Tom*
+
+Jessica was a Research Technician in the Ferrari Lab. A native New Yorker, she completed her Bachelor’s of Science in Biology and Women’s Gender and Sexuality Studies at [Stony Brook University](https://www.stonybrook.edu). While at Stony Brook, she conducted research pertaining to Chronic Myelogenous Leukemia (CML) in the lab of Dr. Markus Seeliger. Her interest in cardiovascular diseases and prevention led her to the Ferrari Lab where she provided support to the Biobank and various research projects. She is now a medical student at Albert Einstein College of Medicine.
+
+<i class="fa fa-telegram"></i> [Email](mailto:<jessica.tom@alumni.stonybrook.edu>)
 
 #### Antonio Frasca, PhD \
 T-32 Postdoctoral Research Fellow	(2016-2021)\
