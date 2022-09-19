@@ -125,29 +125,9 @@ His research goal is to better understand the mechanisms of cardiovascular impla
 
 #### *Dov Levine, MD*
 
-Dov is a General Surgery resident and aspiring Cardiac Surgeon currently doing his T32 Postdoctoral Research Fellowship in the Ferrari Lab. A local New Yorker, he attended medical school at [Albert Einstein College of Medicine](https://einsteinmed.org), and graduated with Alpha Omega Alpha and Distinction in Clinical Research honors. He then continued with his surgical training at [Robert Wood Johnson University Hospital](https://www.rwjms.rutgers.edu/departments/surgery/divisions/other/division-of-general-surgery/residency/about-the-program). His research interests include cellular mechanisms of thoracic aortic aneurysm development, including the role of Advanced Glycated End products (AGEs) on aortic wall instability.
+Dov is a General Surgery resident and aspiring Cardiac Surgeon currently pursuing a PhD in Cellular, Molecular, and Biomedical Studies with the Ferrari Lab. A local New Yorker, he attended medical school at [Albert Einstein College of Medicine](https://einsteinmed.org), and graduated with Alpha Omega Alpha and Distinction in Clinical Research honors. He then continued with his surgical training at [Robert Wood Johnson University Hospital](https://www.rwjms.rutgers.edu/departments/surgery/divisions/other/division-of-general-surgery/residency/about-the-program). His research interests include cellular mechanisms of thoracic aortic aneurysm development, including the role of Advanced Glycated End products (AGEs) on aortic wall instability.
 
 <i class="fa fa-telegram"></i> [Email](mailto:<dl3267@cumc.columbia.edu>)
-
-\
-
-![](images/clint.jpg){width=25%}
-
-#### *Clinton Erwin, MD*
-
-Clinton is a resident in  [Integrated Cardiothoracic surgery at New York Presbyterian-Columbia](https://columbiasurgery.org/cardiothoracic-training). He obtained his MD from [University of Alabama at Birmingham](https://www.uabmedicine.org), where he developed an interest in cardiac surgery. \
-
-Now having completed 3 years of residency, he is currently studying the mechanisms of cardiovascular damage related to COVID-19, along with several clinical projects in adult cardiac surgery.   
-
-<i class="fa fa-telegram"></i> [Email](mailto:<we2153@cumc.columbia.edu>)
-
-\
-
-#### *Michael Simpson, MD*
-
-Michael is a resident in the [Integrated Cardiothoracic surgery at New York Presbyterian-Columbia](https://columbiasurgery.org/cardiothoracic-training). He obtained his MD from [Columbia University College of Physicians & Surgeons](https://www.vagelos.columbia.edu/education/academic-programs/md-program). He has completed three years of his cardiac surgical training and has an interest in aortic surgery and structural heart disease. He is currently studying pathologic mechanisms in mitral valve disease and is involved in several clinical projects across the spectrum of adult cardiac surgery. 
-
-<i class="fa fa-telegram"></i> [Email](mailto:<mts2153@cumc.columbia.edu>)
 
 \
 
@@ -200,21 +180,7 @@ I am Evan Woodard and I am a current 2nd year medical student at [Morehouse Scho
 
 \
 
----
 
-### Biomedical Engineering Students	\
-
-![](images/mas.jpg){width=25%}
-
-#### *Mar Martinez Mas*
-*Columbia University*\
-
-Mar Martinez Mas is a Master’s student in [Biomedical Engineering at Columbia University](https://www.bme.columbia.edu). She is from Barcelona, Spain, and completed her undergraduate degree at [Universitat Pompeu Fabra](https://www.upf.edu/es/) (Barcelona, Spain) where she worked in the field of biomedical electronics. Afterward, she completed the last year and a half of her degree at the [Politecnico di Milano](https://www.polimi.it) (Milan, Italy), where she mainly studied the field of biomechanics.\
-Her main interest lies in prosthetic heart valves and life support systems. She joined the Ferrari Lab in 2021 and is studying the mass and tissue thickening of cardiac valvular bioprostheses under different conditions.
-
-<i class="fa fa-telegram"></i> [Email](mailto:<mm5944@columbia.edu>)
-
-\
 
 ---
 
@@ -265,6 +231,38 @@ Vivian Moreno was the Clinical Research Coordinator for the Ferrari Lab. She com
 Jessica was a Research Technician in the Ferrari Lab. A native New Yorker, she completed her Bachelor’s of Science in Biology and Women’s Gender and Sexuality Studies at [Stony Brook University](https://www.stonybrook.edu). While at Stony Brook, she conducted research pertaining to Chronic Myelogenous Leukemia (CML) in the lab of Dr. Markus Seeliger. Her interest in cardiovascular diseases and prevention led her to the Ferrari Lab where she provided support to the Biobank and various research projects. She is now a medical student at Albert Einstein College of Medicine.
 
 <i class="fa fa-telegram"></i> [Email](mailto:<jessica.tom@alumni.stonybrook.edu>)
+
+\
+
+![](images/clint.jpg){width=25%}
+
+#### *Clinton Erwin, MD*
+
+Clinton is a resident in  [Integrated Cardiothoracic surgery at New York Presbyterian-Columbia](https://columbiasurgery.org/cardiothoracic-training). He obtained his MD from [University of Alabama at Birmingham](https://www.uabmedicine.org), where he developed an interest in cardiac surgery. While in lab, he studied mechanisms of cardiovascular damage related to COVID-19, along with several clinical projects in adult cardiac surgery.   
+
+<i class="fa fa-telegram"></i> [Email](mailto:<we2153@cumc.columbia.edu>)
+
+\
+
+#### *Michael Simpson, MD*
+
+Michael is a resident in the [Integrated Cardiothoracic surgery at New York Presbyterian-Columbia](https://columbiasurgery.org/cardiothoracic-training). He obtained his MD from [Columbia University College of Physicians & Surgeons](https://www.vagelos.columbia.edu/education/academic-programs/md-program). While in the lab, he studied pathologic mechanisms in mitral valve disease and was involved in several clinical projects across the spectrum of adult cardiac surgery.
+
+<i class="fa fa-telegram"></i> [Email](mailto:<mts2153@cumc.columbia.edu>)
+
+\
+
+![](images/mas.jpg){width=25%}
+
+#### *Mar Martinez Mas, MS*
+*Columbia University*\
+
+Mar Martinez Mas was a Master’s student in [Biomedical Engineering at Columbia University](https://www.bme.columbia.edu). She is from Barcelona, Spain, and completed her undergraduate degree at [Universitat Pompeu Fabra](https://www.upf.edu/es/) (Barcelona, Spain) where she worked in the field of biomedical electronics. Afterward, she completed the last year and a half of her degree at the [Politecnico di Milano](https://www.polimi.it) (Milan, Italy), where she mainly studied the field of biomechanics.\
+Her main interest lies in prosthetic heart valves and life support systems. She joined the Ferrari Lab in 2021 and studied the mass and tissue thickening of cardiac valvular bioprostheses under different conditions. She has since joined the industry to advance her research development.
+
+<i class="fa fa-telegram"></i> [Email](mailto:<mm5944@columbia.edu>)
+
+\
 
 #### Antonio Frasca, PhD \
 T-32 Postdoctoral Research Fellow	(2016-2021)\
