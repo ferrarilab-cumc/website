@@ -13,7 +13,7 @@
 
 <title>About Us</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
@@ -63,6 +63,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="style2.css" type="text/css" />
 
 
@@ -87,6 +88,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -144,11 +148,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -315,7 +323,7 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -359,7 +367,7 @@ div.tocify {
 <div id="header">
 
 <div class="btn-group pull-right float-right">
-<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
 <ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
 <li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
 <li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
@@ -369,7 +377,8 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">About Us</h1>
-<h3 class="subtitle"><em>Columbia University Irving Medical Center Cardiothoracic Surgery Research Program</em></h3>
+<h3 class="subtitle"><em>Columbia University Irving Medical Center
+Cardiothoracic Surgery Research Program</em></h3>
 
 </div>
 
@@ -387,16 +396,29 @@ div.tocify {
 <p><img src="images/ferrari.jpg" style="width:25.0%" /></p>
 <div id="giovanni-ferrari-phd" class="section level3">
 <h3><em>Giovanni Ferrari, PhD</em></h3>
-<p>First-generation graduate at the <a href="https://web-en.unipv.it">U of Pavia</a> (2003), I am a group leader and Associate Professor (with tenure) at Columbia University, <a href="https://columbiasurgery.org/research">Department of Surgery</a> and <a href="https://www.bme.columbia.edu">School of Biomedical Engineering</a>.<br />
+<p>First-generation graduate at the <a href="https://web-en.unipv.it">U
+of Pavia</a> (2003), I am a group leader and Associate Professor (with
+tenure) at Columbia University, <a
+href="https://columbiasurgery.org/research">Department of Surgery</a>
+and <a href="https://www.bme.columbia.edu">School of Biomedical
+Engineering</a>.<br />
 </p>
-<p>I am the Scientific Director of the <a href="https://columbiasurgery.org/research/ferrari-lab">Cardiothoracic Research Program and Director of the Columbia Biobank for Translational Science</a>, an applied biobank supporting translational and precision medicine initiatives.<br />
+<p>I am the Scientific Director of the <a
+href="https://columbiasurgery.org/research/ferrari-lab">Cardiothoracic
+Research Program and Director of the Columbia Biobank for Translational
+Science</a>, an applied biobank supporting translational and precision
+medicine initiatives.<br />
 </p>
-<p>My main research interests are in heart valve and vascular cell physiology, cardiac mechanobiology, materials science in medical devices, and the brain-heart axis.</p>
-<p><i class="fa fa-telegram"></i> <a href="mailto:%3Cgf2375@cumc.columbia.edu%3E">Email</a></p>
+<p>My main research interests are in heart valve and vascular cell
+physiology, cardiac mechanobiology, materials science in medical
+devices, and the brain-heart axis.</p>
+<p><i class="fa fa-telegram"></i> <a
+href="mailto:%3Cgf2375@cumc.columbia.edu%3E">Email</a></p>
 <p><br />
 </p>
 <center>
-<a class="twitter-timeline" data-width="650" data-height="450" href="https://twitter.com/ferrag02?ref_src=twsrc%5Etfw">Tweets by ferrag02</a>
+<a class="twitter-timeline" data-width="650" data-height="450" href="https://twitter.com/ferrag02?ref_src=twsrc%5Etfw">Tweets
+by ferrag02</a>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 <p><br />
@@ -415,14 +437,26 @@ div.tocify {
 <p><img src="images/esti.png" style="width:25.0%" /></p>
 <div id="estibaliz-castillero-phd" class="section level4">
 <h4><em>Estibaliz Castillero, PhD</em></h4>
-<p>I am a Biomedical Researcher with a PhD in Physiology and Endocrinology. My research focuses on the study of the advanced stages of myocardial and cardiac valve remodeling. My research argues that cardiac remodeling is regulated both at a local and systemic level and that it may, in turn, affect remote tissues by endocrine crosstalk.<br />
+<p>I am a Biomedical Researcher with a PhD in Physiology and
+Endocrinology. My research focuses on the study of the advanced stages
+of myocardial and cardiac valve remodeling. My research argues that
+cardiac remodeling is regulated both at a local and systemic level and
+that it may, in turn, affect remote tissues by endocrine
+crosstalk.<br />
 </p>
-<p>Currently, I am leading projects that explore myocardium-cardiac valve communication in the adaptation to ischemic injury and the role of circulating factors from the skeletal muscle in cardiac remodeling in end-stage heart failure.</p>
-<p><i class="fa fa-telegram"></i> <a href="mailto:%3Cec2929@cumc.columbia.edu%3E">Email</a><br />
+<p>Currently, I am leading projects that explore myocardium-cardiac
+valve communication in the adaptation to ischemic injury and the role of
+circulating factors from the skeletal muscle in cardiac remodeling in
+end-stage heart failure.</p>
+<p><i class="fa fa-telegram"></i> <a
+href="mailto:%3Cec2929@cumc.columbia.edu%3E">Email</a><br />
 <em>(recommendations for mystery books welcome)</em></p>
-<p><i class="fa fa-book"></i> <a href="https://scholar.google.com/citations?hl=en&amp;user=02qHMNkAAAAJ">Google Scholar</a><br />
+<p><i class="fa fa-book"></i> <a
+href="https://scholar.google.com/citations?hl=en&amp;user=02qHMNkAAAAJ">Google
+Scholar</a><br />
 </p>
-<p><i class="fa fa-twitter"></i> <a href="https://twitter.com/EstiCastillero">Twitter</a><br />
+<p><i class="fa fa-twitter"></i> <a
+href="https://twitter.com/EstiCastillero">Twitter</a><br />
 </p>
 <p><br />
 </p>
@@ -430,12 +464,24 @@ div.tocify {
 </div>
 <div id="chiara-camillo-phd" class="section level4">
 <h4><em>Chiara Camillo, PhD</em></h4>
-<p>Dr. Camillo is a cellular biologist studying the molecular mechanisms that regulate endothelium and vascular morphogenesis. Broadly, her research focuses on translational and clinical approaches to studying cardiovascular diseases using both in vitro and in vivo models. Dr. Camillo is leading projects on thoracic aortic aneurysm development, focused on determining the impact of glycation products on cellular phenotype, extracellular matrix remodeling and aortic wall instability.</p>
-<p>“Sciences provide an understanding of a universal experience, Arts are a universal understanding of a personal experience… they are both a part of us and a manifestation of the same thing… the arts and sciences are avatars of human creativity” – Mae Jemison<br />
+<p>Dr. Camillo is a cellular biologist studying the molecular mechanisms
+that regulate endothelium and vascular morphogenesis. Broadly, her
+research focuses on translational and clinical approaches to studying
+cardiovascular diseases using both in vitro and in vivo models.
+Dr. Camillo is leading projects on thoracic aortic aneurysm development,
+focused on determining the impact of glycation products on cellular
+phenotype, extracellular matrix remodeling and aortic wall
+instability.</p>
+<p>“Sciences provide an understanding of a universal experience, Arts
+are a universal understanding of a personal experience… they are both a
+part of us and a manifestation of the same thing… the arts and sciences
+are avatars of human creativity” – Mae Jemison<br />
 </p>
-<p><i class="fa fa-telegram"></i> <a href="mailto:%3Ccc4418@cumc.columbia.edu%3E">Email</a><br />
+<p><i class="fa fa-telegram"></i> <a
+href="mailto:%3Ccc4418@cumc.columbia.edu%3E">Email</a><br />
 </p>
-<p><i class="fa fa-book"></i> <a href="https://orcid.org/0000-0001-8000-3188">ORCID</a><br />
+<p><i class="fa fa-book"></i> <a
+href="https://orcid.org/0000-0001-8000-3188">ORCID</a><br />
 </p>
 <hr />
 <p><br />
@@ -450,12 +496,24 @@ div.tocify {
 <div id="yingfei-xue-phd" class="section level4">
 <h4><em>Yingfei Xue, PhD</em><br />
 </h4>
-<p>Dr. Yingfei Xue is currently a postdoctoral research scientist in Dr. Giovanni Ferrari lab at Columbia University. He obtained his PhD degree from <a href="http://www.pharmacy.pitt.edu/research/research_index.php">University of Pittsburgh School of Pharmacy</a>. His research interest is centered around cardiovascular implants including bioprosthetic valves, conduits, and patches.<br />
+<p>Dr. Yingfei Xue is currently a postdoctoral research scientist in
+Dr. Giovanni Ferrari lab at Columbia University. He obtained his PhD
+degree from <a
+href="http://www.pharmacy.pitt.edu/research/research_index.php">University
+of Pittsburgh School of Pharmacy</a>. His research interest is centered
+around cardiovascular implants including bioprosthetic valves, conduits,
+and patches.<br />
 </p>
-<p>His research goal is to better understand the mechanisms of cardiovascular implant failure and improve implant durability. He has 20 publications and served as editorial board member and reviewer for multiple journals in the fields of biomedical engineering.</p>
-<p><i class="fa fa-telegram"></i> <a href="mailto:%3Cyx2529@cumc.columbia.edu%3E">Email</a><br />
+<p>His research goal is to better understand the mechanisms of
+cardiovascular implant failure and improve implant durability. He has 20
+publications and served as editorial board member and reviewer for
+multiple journals in the fields of biomedical engineering.</p>
+<p><i class="fa fa-telegram"></i> <a
+href="mailto:%3Cyx2529@cumc.columbia.edu%3E">Email</a><br />
 </p>
-<p><i class="fa fa-book"></i> <a href="https://scholar.google.com/citations?user=W8-jXZ0AAAAJ&amp;hl=en">Google Scholar</a></p>
+<p><i class="fa fa-book"></i> <a
+href="https://scholar.google.com/citations?user=W8-jXZ0AAAAJ&amp;hl=en">Google
+Scholar</a></p>
 <p><br />
 </p>
 <hr />
@@ -467,37 +525,59 @@ div.tocify {
 <h3><a id="SurgRes"></a>Surgical Residents</h3>
 <p><br />
 </p>
-<p><img src="images/abramov.jpg" style="width:25.0%" /></p>
-<div id="alexey-abramov-md" class="section level4">
-<h4><em>Alexey Abramov, MD</em></h4>
-<p>Alexey is a General Surgery resident in the <a href="https://columbiasurgery.org/general-surgery-residency">New York Presbyterian-Columbia</a> program with an interest in cardiothoracic surgery fellowship and biomedical engineering. He graduated from <a href="http://college.emory.edu/main/index.html">Emory University</a> and received his MD from <a href="https://www.nymc.edu/school-of-medicine-som/">New York Medical College</a>. Currently, he is a NIH T32 post-doctoral research fellow in Dr. Ferrari’s lab studying the underlying mechanisms of structural degeneration of bioprosthetic heart valves with next-generation proteomics. He is also pursuing a Master’s degree in the Biostatistics at the <a href="https://www.publichealth.columbia.edu/academics/degrees/master-science/clinical-research-methods">Columbia University Mailman School of Public Health</a>. In his free time, he enjoys the outdoors, hiking, running, road cycling and skiing.</p>
-<p><i class="fa fa-telegram"></i> <a href="mailto:%3Caa3832@cumc.columbia.edu%3E">Email</a></p>
-<p><i class="fa fa-twitter"></i> <a href="https://twitter.com/aabramov_MD">Twitter</a></p>
 <p><br />
 </p>
 <p><img src="images/dov.jpg" style="width:25.0%" /></p>
-</div>
 <div id="dov-levine-md" class="section level4">
 <h4><em>Dov Levine, MD</em></h4>
-<p>Dov is a General Surgery resident and aspiring Cardiac Surgeon currently doing his T32 Postdoctoral Research Fellowship in the Ferrari Lab. A local New Yorker, he attended medical school at <a href="https://einsteinmed.org">Albert Einstein College of Medicine</a>, and graduated with Alpha Omega Alpha and Distinction in Clinical Research honors. He then continued with his surgical training at <a href="https://www.rwjms.rutgers.edu/departments/surgery/divisions/other/division-of-general-surgery/residency/about-the-program">Robert Wood Johnson University Hospital</a>. His research interests include cellular mechanisms of thoracic aortic aneurysm development, including the role of Advanced Glycated End products (AGEs) on aortic wall instability.</p>
-<p><i class="fa fa-telegram"></i> <a href="mailto:%3Cdl3267@cumc.columbia.edu%3E">Email</a></p>
+<p>Dov is a General Surgery resident and aspiring Cardiac Surgeon
+currently doing his T32 Postdoctoral Research Fellowship in the Ferrari
+Lab. A local New Yorker, he attended medical school at <a
+href="https://einsteinmed.org">Albert Einstein College of Medicine</a>,
+and graduated with Alpha Omega Alpha and Distinction in Clinical
+Research honors. He then continued with his surgical training at <a
+href="https://www.rwjms.rutgers.edu/departments/surgery/divisions/other/division-of-general-surgery/residency/about-the-program">Robert
+Wood Johnson University Hospital</a>. His research interests include
+cellular mechanisms of thoracic aortic aneurysm development, including
+the role of Advanced Glycated End products (AGEs) on aortic wall
+instability.</p>
+<p><i class="fa fa-telegram"></i> <a
+href="mailto:%3Cdl3267@cumc.columbia.edu%3E">Email</a></p>
 <p><br />
 </p>
 <p><img src="images/clint.jpg" style="width:25.0%" /></p>
 </div>
 <div id="clinton-erwin-md" class="section level4">
 <h4><em>Clinton Erwin, MD</em></h4>
-<p>Clinton is a resident in <a href="https://columbiasurgery.org/cardiothoracic-training">Integrated Cardiothoracic surgery at New York Presbyterian-Columbia</a>. He obtained his MD from <a href="https://www.uabmedicine.org">University of Alabama at Birmingham</a>, where he developed an interest in cardiac surgery.<br />
+<p>Clinton is a resident in <a
+href="https://columbiasurgery.org/cardiothoracic-training">Integrated
+Cardiothoracic surgery at New York Presbyterian-Columbia</a>. He
+obtained his MD from <a href="https://www.uabmedicine.org">University of
+Alabama at Birmingham</a>, where he developed an interest in cardiac
+surgery.<br />
 </p>
-<p>Now having completed 3 years of residency, he is currently studying the mechanisms of cardiovascular damage related to COVID-19, along with several clinical projects in adult cardiac surgery.</p>
-<p><i class="fa fa-telegram"></i> <a href="mailto:%3Cwe2153@cumc.columbia.edu%3E">Email</a></p>
+<p>Now having completed 3 years of residency, he is currently studying
+the mechanisms of cardiovascular damage related to COVID-19, along with
+several clinical projects in adult cardiac surgery.</p>
+<p><i class="fa fa-telegram"></i> <a
+href="mailto:%3Cwe2153@cumc.columbia.edu%3E">Email</a></p>
 <p><br />
 </p>
 </div>
 <div id="michael-simpson-md" class="section level4">
 <h4><em>Michael Simpson, MD</em></h4>
-<p>Michael is a resident in the <a href="https://columbiasurgery.org/cardiothoracic-training">Integrated Cardiothoracic surgery at New York Presbyterian-Columbia</a>. He obtained his MD from <a href="https://www.vagelos.columbia.edu/education/academic-programs/md-program">Columbia University College of Physicians &amp; Surgeons</a>. He has completed three years of his cardiac surgical training and has an interest in aortic surgery and structural heart disease. He is currently studying pathologic mechanisms in mitral valve disease and is involved in several clinical projects across the spectrum of adult cardiac surgery.</p>
-<p><i class="fa fa-telegram"></i> <a href="mailto:%3Cmts2153@cumc.columbia.edu%3E">Email</a></p>
+<p>Michael is a resident in the <a
+href="https://columbiasurgery.org/cardiothoracic-training">Integrated
+Cardiothoracic surgery at New York Presbyterian-Columbia</a>. He
+obtained his MD from <a
+href="https://www.vagelos.columbia.edu/education/academic-programs/md-program">Columbia
+University College of Physicians &amp; Surgeons</a>. He has completed
+three years of his cardiac surgical training and has an interest in
+aortic surgery and structural heart disease. He is currently studying
+pathologic mechanisms in mitral valve disease and is involved in several
+clinical projects across the spectrum of adult cardiac surgery.</p>
+<p><i class="fa fa-telegram"></i> <a
+href="mailto:%3Cmts2153@cumc.columbia.edu%3E">Email</a></p>
 <p><br />
 </p>
 <p><img src="images/niko.jpg" style="width:25.0%" /></p>
@@ -506,7 +586,12 @@ div.tocify {
 <h4><em>Nicolò Vitale, MD</em><br />
 </h4>
 <p><em>U of Milan</em></p>
-<p>Nicolò Vitale is cardiac surgery resident at <a href="https://www.unimi.it/it">Università degli studi di Milano</a>. He obtained his MD from Università degli studi di Milano. He is very interested in the mechanisms of ischemic heart failure. He is currently studying the mechanisms of structural degeneration of the pediatric bioprosthetic conduits.</p>
+<p>Nicolò Vitale is cardiac surgery resident at <a
+href="https://www.unimi.it/it">Università degli studi di Milano</a>. He
+obtained his MD from Università degli studi di Milano. He is very
+interested in the mechanisms of ischemic heart failure. He is currently
+studying the mechanisms of structural degeneration of the pediatric
+bioprosthetic conduits.</p>
 <p><br />
 </p>
 <hr />
@@ -521,16 +606,34 @@ div.tocify {
 <p><img src="images/viv.jpg" style="width:25.0%" /></p>
 <div id="vivian-moreno" class="section level4">
 <h4><em>Vivian Moreno</em></h4>
-<p>Vivian Moreno is the Clinical Research Coordinator for the Ferrari Lab. She completed her Bachelor’s of Science in Biomedical Science at the <a href="https://www.kent.ac.uk">University of Kent in Canterbury, England</a>. Her research background includes cancer research at Yale University and novel antimicrobial peptides at <a href="https://novabiotics.co.uk">NovaBiotics, Ltd</a>. Her favorite pastimes include playing the piano, volunteering, and working out at AARMY.</p>
-<p><i class="fa fa-telegram"></i> <a href="mailto:%3Cvmm2142@cumc.columbia.edu%3E">Email</a></p>
+<p>Vivian Moreno is the Clinical Research Coordinator for the Ferrari
+Lab. She completed her Bachelor’s of Science in Biomedical Science at
+the <a href="https://www.kent.ac.uk">University of Kent in Canterbury,
+England</a>. Her research background includes cancer research at Yale
+University and novel antimicrobial peptides at <a
+href="https://novabiotics.co.uk">NovaBiotics, Ltd</a>. Her favorite
+pastimes include playing the piano, volunteering, and working out at
+AARMY.</p>
+<p><i class="fa fa-telegram"></i> <a
+href="mailto:%3Cvmm2142@cumc.columbia.edu%3E">Email</a></p>
 <p><br />
 </p>
 <p><img src="images/Jessica.jpg" style="width:25.0%" /></p>
 </div>
 <div id="jessica-tom" class="section level4">
 <h4><em>Jessica Tom</em></h4>
-<p>Jessica is a Research Technician in the Ferrari Lab. A native New Yorker, she completed her Bachelor’s of Science in Biology and Women’s Gender and Sexuality Studies at <a href="https://www.stonybrook.edu">Stony Brook University</a>. While at Stony Brook, she conducted research pertaining to Chronic Myelogenous Leukemia (CML) in the lab of Dr. Markus Seeliger. Her interest in cardiovascular diseases and prevention led her to the Ferrari Lab where she provides support to the biobank and various research projects. Her favorite pastimes include discovering new music, stand-up comedy specials, and baking.</p>
-<p><i class="fa fa-telegram"></i> <a href="mailto:%3Cjessica.tom@alumni.stonybrook.edu%3E">Email</a></p>
+<p>Jessica is a Research Technician in the Ferrari Lab. A native New
+Yorker, she completed her Bachelor’s of Science in Biology and Women’s
+Gender and Sexuality Studies at <a
+href="https://www.stonybrook.edu">Stony Brook University</a>. While at
+Stony Brook, she conducted research pertaining to Chronic Myelogenous
+Leukemia (CML) in the lab of Dr. Markus Seeliger. Her interest in
+cardiovascular diseases and prevention led her to the Ferrari Lab where
+she provides support to the biobank and various research projects. Her
+favorite pastimes include discovering new music, stand-up comedy
+specials, and baking.</p>
+<p><i class="fa fa-telegram"></i> <a
+href="mailto:%3Cjessica.tom@alumni.stonybrook.edu%3E">Email</a></p>
 <hr />
 </div>
 <div id="lab-manager" class="section level4">
@@ -553,7 +656,13 @@ div.tocify {
 </h4>
 <p><em>U of Bologna</em><br />
 </p>
-<p>I am a current medical student in my fifth year at the <a href="https://www.unibo.it/en">Alma Mater Studiorum Università di Bologna</a>. I developed an interest for cardiac surgery in my third year. My research and clinical interest mainly involve the study of the aortic pathology, and particularly the treatment of the acute aortic syndrome and the subcellular mechanisms involved in the pathogenesis of it.</p>
+<p>I am a current medical student in my fifth year at the <a
+href="https://www.unibo.it/en">Alma Mater Studiorum Università di
+Bologna</a>. I developed an interest for cardiac surgery in my third
+year. My research and clinical interest mainly involve the study of the
+aortic pathology, and particularly the treatment of the acute aortic
+syndrome and the subcellular mechanisms involved in the pathogenesis of
+it.</p>
 <p><br />
 </p>
 <p><img src="images/evan_woodard.jpg" style="width:25.0%" /></p>
@@ -562,7 +671,11 @@ div.tocify {
 <h4><em>Evan Woodard</em><br />
 </h4>
 <p><em>Morehouse School of Medicine</em></p>
-<p>I am Evan Woodard and I am a current 2nd year medical student at <a href="https://msm.edu">Morehouse School of Medicine</a>interested in a career in cardiothoracic surgery. Some of my research and clinical interest include patient outcomes research and minimally invasive surgical techniques.</p>
+<p>I am Evan Woodard and I am a current 2nd year medical student at <a
+href="https://msm.edu">Morehouse School of Medicine</a>interested in a
+career in cardiothoracic surgery. Some of my research and clinical
+interest include patient outcomes research and minimally invasive
+surgical techniques.</p>
 <p><br />
 </p>
 <hr />
@@ -576,9 +689,21 @@ div.tocify {
 <h4><em>Mar Martinez Mas</em></h4>
 <p><em>Columbia University</em><br />
 </p>
-<p>Mar Martinez Mas is a Master’s student in <a href="https://www.bme.columbia.edu">Biomedical Engineering at Columbia University</a>. She is from Barcelona, Spain, and completed her undergraduate degree at <a href="https://www.upf.edu/es/">Universitat Pompeu Fabra</a> (Barcelona, Spain) where she worked in the field of biomedical electronics. Afterward, she completed the last year and a half of her degree at the <a href="https://www.polimi.it">Politecnico di Milano</a> (Milan, Italy), where she mainly studied the field of biomechanics.<br />
-Her main interest lies in prosthetic heart valves and life support systems. She joined the Ferrari Lab in 2021 and is studying the mass and tissue thickening of cardiac valvular bioprostheses under different conditions.</p>
-<p><i class="fa fa-telegram"></i> <a href="mailto:%3Cmm5944@columbia.edu%3E">Email</a></p>
+<p>Mar Martinez Mas is a Master’s student in <a
+href="https://www.bme.columbia.edu">Biomedical Engineering at Columbia
+University</a>. She is from Barcelona, Spain, and completed her
+undergraduate degree at <a href="https://www.upf.edu/es/">Universitat
+Pompeu Fabra</a> (Barcelona, Spain) where she worked in the field of
+biomedical electronics. Afterward, she completed the last year and a
+half of her degree at the <a href="https://www.polimi.it">Politecnico di
+Milano</a> (Milan, Italy), where she mainly studied the field of
+biomechanics.<br />
+Her main interest lies in prosthetic heart valves and life support
+systems. She joined the Ferrari Lab in 2021 and is studying the mass and
+tissue thickening of cardiac valvular bioprostheses under different
+conditions.</p>
+<p><i class="fa fa-telegram"></i> <a
+href="mailto:%3Cmm5944@columbia.edu%3E">Email</a></p>
 <p><br />
 </p>
 <hr />
@@ -589,7 +714,8 @@ Her main interest lies in prosthetic heart valves and life support systems. She 
 <p><img src="images/Churro_New.jpg" style="width:25.0%" /></p>
 <div id="churro" class="section level4">
 <h4><em>Churro</em></h4>
-<p>2 years old Irish-Doodle. Strong interest in any type of food. Life’s not ruff when I am around. Woof</p>
+<p>2 years old Irish-Doodle. Strong interest in any type of food. Life’s
+not ruff when I am around. Woof</p>
 <p><br />
 </p>
 <hr />
@@ -600,6 +726,31 @@ Her main interest lies in prosthetic heart valves and life support systems. She 
 </h3>
 <p><br />
 </p>
+<p><img src="images/abramov.jpg" style="width:25.0%" /></p>
+<div id="alexey-abramov-md" class="section level4">
+<h4><em>Alexey Abramov, MD</em></h4>
+<p>Alexey is a General Surgery resident in the <a
+href="https://columbiasurgery.org/general-surgery-residency">New York
+Presbyterian-Columbia</a> program with an interest in cardiothoracic
+surgery fellowship and biomedical engineering. He graduated from <a
+href="http://college.emory.edu/main/index.html">Emory University</a> and
+received his MD from <a
+href="https://www.nymc.edu/school-of-medicine-som/">New York Medical
+College</a>. Currently, he is a NIH T32 post-doctoral research fellow in
+Dr. Ferrari’s lab studying the underlying mechanisms of structural
+degeneration of bioprosthetic heart valves with next-generation
+proteomics. He is also pursuing a Master’s degree in the Biostatistics
+at the <a
+href="https://www.publichealth.columbia.edu/academics/degrees/master-science/clinical-research-methods">Columbia
+University Mailman School of Public Health</a>. In his free time, he
+enjoys the outdoors, hiking, running, road cycling and skiing.</p>
+<p><i class="fa fa-telegram"></i> <a
+href="mailto:%3Caa3832@cumc.columbia.edu%3E">Email</a></p>
+<p><i class="fa fa-twitter"></i> <a
+href="https://twitter.com/aabramov_MD">Twitter</a></p>
+<p><br />
+</p>
+</div>
 <div id="antonio-frasca-phd" class="section level4">
 <h4>Antonio Frasca, PhD<br />
 </h4>
@@ -642,14 +793,22 @@ Her main interest lies in prosthetic heart valves and life support systems. She 
 <h3>Robert J. Levy, MD<br />
 </h3>
 <p>Director of Cardiology Research<br />
-Program Director of the Cardiology National Heart, Lung, and Blood Institute (NHLBI) Research Training Grant<br />
+Program Director of the Cardiology National Heart, Lung, and Blood
+Institute (NHLBI) Research Training Grant<br />
 </p>
 <p><em>Children’s Hospital of Philadelphia</em><br />
 </p>
 <p><br />
 </p>
-<p>Levy is the director of Cardiology Research, and also serves as program director of the Cardiology <a href="http://www.nhlbi.nih.gov">National Heart, Lung, and Blood Institute (NHLBI)</a> Research Training Grant.</p>
-<p>His research interests are the pathophysiology of biomaterials used in medicine, basic mechanisms and novel therapies for heart valve disease, arterial angioplasty, local drug delivery, and nanomedicine. He also has experience over three decades in medical device development.<br />
+<p>Levy is the director of Cardiology Research, and also serves as
+program director of the Cardiology <a
+href="http://www.nhlbi.nih.gov">National Heart, Lung, and Blood
+Institute (NHLBI)</a> Research Training Grant.</p>
+<p>His research interests are the pathophysiology of biomaterials used
+in medicine, basic mechanisms and novel therapies for heart valve
+disease, arterial angioplasty, local drug delivery, and nanomedicine. He
+also has experience over three decades in medical device
+development.<br />
 </p>
 <p><em>R01HL131872</em></p>
 <p><br />
@@ -667,8 +826,18 @@ Surgical Director, Initiative for Pediatric Cardiac Innovation<br />
 </p>
 <p><br />
 </p>
-<p>Expandable Polymeric-valved Conduit to Repair Congenital Heart Disease</p>
-<p>The proposed research is relevant to public health because a biostable polymeric valved conduit that can be implanted surgically to reconstruct the right ventricular outflow tract in neonates and infants and then expanded by successive transcatheter procedures to reach the adult size, would revolutionize how we treat children with heart valve diseases. Such a new generation of valved conduit would decrease the number of open-heart surgeries and reoperations, decrease the mortality, complications and healthcare costs related to these procedures and increase the life expectancy and quality of life of these patients.<br />
+<p>Expandable Polymeric-valved Conduit to Repair Congenital Heart
+Disease</p>
+<p>The proposed research is relevant to public health because a
+biostable polymeric valved conduit that can be implanted surgically to
+reconstruct the right ventricular outflow tract in neonates and infants
+and then expanded by successive transcatheter procedures to reach the
+adult size, would revolutionize how we treat children with heart valve
+diseases. Such a new generation of valved conduit would decrease the
+number of open-heart surgeries and reoperations, decrease the mortality,
+complications and healthcare costs related to these procedures and
+increase the life expectancy and quality of life of these
+patients.<br />
 </p>
 <p><em>R01HL155381</em></p>
 <p><br />
@@ -681,7 +850,13 @@ Surgical Director, Initiative for Pediatric Cardiac Innovation<br />
 <p><em>University of Texas at Austin</em></p>
 <p><br />
 </p>
-<p>The bicuspid aortic valve (BAV) is the most common cardiac congenital anomaly. Due to the widespread availability and routine use of screening echocardiography, development of clinical methods for the identification of asymptomatic young patients with BAV is now realistic. We thus plan to develop sensitive, clinically derivable functional indices that will yield clinically relevant patient- specific strategies for identifying BAV patients at high risk.<br />
+<p>The bicuspid aortic valve (BAV) is the most common cardiac congenital
+anomaly. Due to the widespread availability and routine use of screening
+echocardiography, development of clinical methods for the identification
+of asymptomatic young patients with BAV is now realistic. We thus plan
+to develop sensitive, clinically derivable functional indices that will
+yield clinically relevant patient- specific strategies for identifying
+BAV patients at high risk.<br />
 </p>
 <p><em>R01HL142504</em></p>
 <p><br />
@@ -695,11 +870,25 @@ Surgical Director, Initiative for Pediatric Cardiac Innovation<br />
 <h3>Lara Garibeh, PhD<br />
 </h3>
 <p><em>University of Ottawa Heart Institute</em></p>
-<p><em>Canadian Institute of Research and Health (CIHR) Fellowship (2021-2023)</em><br />
+<p><em>Canadian Institute of Research and Health (CIHR) Fellowship
+(2021-2023)</em><br />
 </p>
 <p><br />
 </p>
-<p>Identification of Molecular Pathways that Protect Against Atherosclerosis Coronary artery disease (CAD) is one of the leading causes of cardiovascular death worldwide. Current treatments for CAD include lifestyle modifications and medical therapies to reduce its risk factors. When these methods fail, more invasive interventions, such as placement of a stent to restore blood flow or performance of a coronary artery bypass graft surgery, are used. This latter procedure aims at bypassing the blocked area using either veins or arteries. The use of arterial grafts is associated with a better long-term patency and a reduced rate of progression of atherosclerosis when compared to vein grafts. Yet, the exact molecular mechanisms by which arteries are protected from disease progression are not well understood. This study aims to identify the underlying mechanisms that render arteries resistant to atherosclerosis.<br />
+<p>Identification of Molecular Pathways that Protect Against
+Atherosclerosis Coronary artery disease (CAD) is one of the leading
+causes of cardiovascular death worldwide. Current treatments for CAD
+include lifestyle modifications and medical therapies to reduce its risk
+factors. When these methods fail, more invasive interventions, such as
+placement of a stent to restore blood flow or performance of a coronary
+artery bypass graft surgery, are used. This latter procedure aims at
+bypassing the blocked area using either veins or arteries. The use of
+arterial grafts is associated with a better long-term patency and a
+reduced rate of progression of atherosclerosis when compared to vein
+grafts. Yet, the exact molecular mechanisms by which arteries are
+protected from disease progression are not well understood. This study
+aims to identify the underlying mechanisms that render arteries
+resistant to atherosclerosis.<br />
 </p>
 <p><a href="https://www.linkedin.com/in/lara-gharibeh/">LinkedIn</a></p>
 <p><br />
@@ -714,7 +903,11 @@ Surgical Director, Initiative for Pediatric Cardiac Innovation<br />
 </p>
 <p><br />
 </p>
-<p>Dr. Grau’s work blends clinical knowledge and expertise with the tools of basic science to find new approaches to clinically relevant problems. He serves as a reviewer for the Annals of Thoracic Surgery, Journal of the American Heart Association, Circulation, and the British Heart Foundation, among others.<br />
+<p>Dr. Grau’s work blends clinical knowledge and expertise with the
+tools of basic science to find new approaches to clinically relevant
+problems. He serves as a reviewer for the Annals of Thoracic Surgery,
+Journal of the American Heart Association, Circulation, and the British
+Heart Foundation, among others.<br />
 </p>
 <p><br />
 </p>
@@ -724,12 +917,14 @@ Surgical Director, Initiative for Pediatric Cardiac Innovation<br />
 <h3>Walter R. Witschey, PhD<br />
 </h3>
 <p>Associate Professor of Radiology<br />
-Director of the Advanced Cardiovascular Imaging Lab at the University of Pennsylvania<br />
+Director of the Advanced Cardiovascular Imaging Lab at the University of
+Pennsylvania<br />
 <em>University of Pennsylvania</em><br />
 </p>
 <p><br />
 </p>
-<p>Theoretical and applied advanced imaging, especially magnetic resonance imaging and quantitative cardiovascular imaging.</p>
+<p>Theoretical and applied advanced imaging, especially magnetic
+resonance imaging and quantitative cardiovascular imaging.</p>
 <p><a href="https://www.med.upenn.edu/corlab/">Lab Website</a></p>
 <p><br />
 </p>
@@ -742,11 +937,15 @@ Director of the Advanced Cardiovascular Imaging Lab at the University of Pennsyl
 Created by Alexey Abramov MD</a>
 </p>
 <p style="text-align: center;">
-<span style="color: #808080;"><em><a href="mailto:aa3832@cumc.columbia.edu" class="email">aa3832@cumc.columbia.edu</a></em></span>
+<span style="color: #808080;"><em><a
+href="mailto:aa3832@cumc.columbia.edu"
+class="email">aa3832@cumc.columbia.edu</a></em></span>
 </p>
 <!-- Add font awesome icons -->
 <p style="text-align: center;">
-<a href="https://twitter.com/aabramov_md?lang=en" class="fa fa-twitter"></a> <a href="https://www.linkedin.com/in/abramovmd/" class="fa fa-linkedin"></a> <a href="https://github.com/aabramov90/" class="fa fa-github"></a>
+<a href="https://twitter.com/aabramov_md?lang=en" class="fa fa-twitter"></a>
+<a href="https://www.linkedin.com/in/abramovmd/" class="fa fa-linkedin"></a>
+<a href="https://github.com/aabramov90/" class="fa fa-github"></a>
 <p style="text-align: center;">
 © Copyright 2021, Ferrari Lab at Columbia University</a>
 </p>
