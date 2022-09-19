@@ -255,7 +255,7 @@ Michael is a resident in the [Integrated Cardiothoracic surgery at New York Pres
 
 ![](images/mas.jpg){width=25%}
 
-#### *Mar Martinez Mas, MS*
+#### *Mar Martinez Mas, MBE*
 *Columbia University*\
 
 Mar Martinez Mas was a Master’s student in [Biomedical Engineering at Columbia University](https://www.bme.columbia.edu). She is from Barcelona, Spain, and completed her undergraduate degree at [Universitat Pompeu Fabra](https://www.upf.edu/es/) (Barcelona, Spain) where she worked in the field of biomedical electronics. Afterward, she completed the last year and a half of her degree at the [Politecnico di Milano](https://www.polimi.it) (Milan, Italy), where she mainly studied the field of biomechanics.\
@@ -412,7 +412,7 @@ Theoretical and applied advanced imaging, especially magnetic resonance imaging 
     <a href="https://twitter.com/aabramov_md?lang=en" class="fa fa-twitter"></a>
     <a href="https://www.linkedin.com/in/abramovmd/" class="fa fa-linkedin"></a>
     <a href="https://github.com/aabramov90/" class="fa fa-github"></a>
-<p style="text-align: center;">&copy; Copyright 2021, Ferrari Lab at Columbia University</a>
+<p style="text-align: center;">&copy; Copyright 2022, Ferrari Lab at Columbia University</a>
 </p>
 
 &nbsp;
