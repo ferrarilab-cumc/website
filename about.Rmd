@@ -117,7 +117,15 @@ His research goal is to better understand the mechanisms of cardiovascular impla
 
 \
 
+![](images/erfan.jpg){width=25%}
 
+#### *Erfan Faridmoayer, MD*
+
+Erfan is a General Surgery resident undertaking a T32-funded postdoctoral fellowship at the Ferrari Lab, while pursuing a Master of Science in Biostatistics with the [Columbia University Mailman School of Public Health](https://www.publichealth.columbia.edu/academics/degrees/master-science/clinical-research-methods). Prior to joining the lab, Erfan obtained his Bachelor of Science with Honors in Molecular, Cell, and Developmental Biology at [UCLA](https://www.mcdb.ucla.edu). He then attended medical school at [Oakland University William Beaumont School of Medicine](https://oakland.edu/medicine) in Michigan, where he developed his passion for a career in academic surgery. He has since pursued his surgical training at [SUNY Downstate](https://www.downstate.edu/education-training/fellowship-residency-programs/surgery/index.html). Erfan’s research interests include investigating molecular drivers valve degeneration and cardiac tissue engineering, and cardiac surgical outcomes. In his spare time, Erfan enjoys kayaking, hiking, and exploring the New York food scene.
+
+<i class="fa fa-telegram"></i> [Email](mailto:<ef2721@cumc.columbia.edu>)
+
+<i class="fa fa-twitter"></i> [Twitter](https://twitter.com/erfanfarid)
 
 \
  
@@ -139,13 +147,6 @@ Dov is a General Surgery resident and aspiring Cardiac Surgeon currently pursuin
 Nicolò Vitale is cardiac surgery resident at [Università degli studi di Milano](https://www.unimi.it/it). He obtained his MD from Università degli studi di Milano. He is very interested in the mechanisms of ischemic heart failure. He is currently studying the mechanisms of structural degeneration of the pediatric bioprosthetic conduits.
 
 \
-
----
-
-\
-
-### <a id="Biobank"></a>Biobank			
-
 
 
 ---
