@@ -60,6 +60,24 @@ editor_options:
 
 <div id="demobox">
 
+September 2022 <i class="fas fa-file-alt"></i>\
+Our collaboration with the Levy Lab on inhibition of advanced glycation end products in biprosthetic heart valves was published in [Biomaterials](https://pubmed.ncbi.nlm.nih.gov/36099713/) journal.
+
+</div>
+
+\
+
+<div id="demobox">
+
+August 2022 <i class="fas fa-file-alt"></i>\
+Our collaboration with the the Kalfa Lab on multilayered polymeric material for heart valve repair and replacement was published in [Biomaterials](https://pubmed.ncbi.nlm.nih.gov/36041938/) journal.
+
+</div>
+
+\
+
+<div id="demobox">
+
 May 2022 <i class="fas fa-solid fa-user-graduate"></i>\
 [Alexey Abramov MD MS](about.html#PostDocs) and [Mar Martinez Mas MBE](about.html#Students) graduated from their Columbia University masters programs!    
 
@@ -188,7 +206,7 @@ Learn about the Columbia General Surgery residency program
     <a href="https://twitter.com/aabramov_md?lang=en" class="fa fa-twitter"></a>
     <a href="https://www.linkedin.com/in/abramovmd/" class="fa fa-linkedin"></a>
     <a href="https://github.com/aabramov90/" class="fa fa-github"></a>
-<p style="text-align: center;">&copy; Copyright 2021, Ferrari Lab at Columbia University</a>
+<p style="text-align: center;">&copy; Copyright 2022, Ferrari Lab at Columbia University</a>
 </p>
 
 &nbsp;
