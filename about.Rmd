@@ -151,10 +151,15 @@ Nicolò Vitale is cardiac surgery resident at [Università degli studi di Milano
 
 ---
 
-#### Lab Manager
+#### <a id="Lab Manager"></a>Lab Manager
 
-#### *Mangesh Kurade*
+\
 
+![](images/Mangesh.jpg){width=25%}
+
+#### *Mangesh Kurade, MS*
+
+Mangesh is the lab manager for Ferrari Lab. He completed his Masters of Science in Pharmacology and Toxicology from Long Island University in Brooklyn, New York. His research background involves basic molecular and translational biology in cardiovascular, inflammation and infectious diseases. In his free time, he enjoys playing tennis, his guitar and taking long drives.
 \
 
 ---
@@ -168,7 +173,7 @@ Nicolò Vitale is cardiac surgery resident at [Università degli studi di Milano
 #### *Edoardo Bianco* \
 *U of Bologna*\
 
-I am a current medical student in my  fifth year at the [Alma Mater Studiorum Università di Bologna](https://www.unibo.it/en). I developed an interest for cardiac surgery in my third year. My research and clinical interest mainly involve the study of the aortic pathology, and particularly the treatment of the acute aortic syndrome and the subcellular mechanisms involved in the pathogenesis of it.  
+Edoardo is a medical student in his  fifth year at the [Alma Mater Studiorum Università di Bologna](https://www.unibo.it/en). He developed an interest for cardiac surgery during his third year in medical school. His research and clinical interests involve the study of the aortic pathology, particularly the treatment of acute aortic syndrome and the sub-cellular mechanisms involved in its pathogenesis.  
 
 \
 
@@ -177,7 +182,7 @@ I am a current medical student in my  fifth year at the [Alma Mater Studiorum Un
 #### *Evan Woodard* \
 *Morehouse School of Medicine*
 
-I am Evan Woodard and I am a current 2nd year medical student at [Morehouse School of Medicine](https://msm.edu)interested in a career in cardiothoracic surgery. Some of my research and clinical interest include patient outcomes research and minimally invasive surgical techniques. 
+Evan is a second-year medical student at [Morehouse School of Medicine](https://msm.edu) interested in a career in cardiothoracic surgery. Some of his research and clinical interests include patient outcomes research and minimally invasive surgical techniques. 
 
 \
 
