@@ -128,6 +128,15 @@ Erfan is a General Surgery resident undertaking a T32-funded postdoctoral fellow
 <i class="fa fa-twitter"></i> [Twitter](https://twitter.com/erfanfarid)
 
 \
+
+---
+
+\
+
+
+### <a id="GradStudent"></a>Graduate Students
+
+\
  
 ![](images/dov.jpg){width=25%}
 
@@ -139,44 +148,10 @@ Dov is a General Surgery resident and aspiring Cardiac Surgeon currently pursuin
 
 \
 
-![](images/niko.jpg){width=25%}
- 
-#### *Nicolò Vitale, MD*\
-*U of Milan*
-
-Nicolò Vitale is cardiac surgery resident at [Università degli studi di Milano](https://www.unimi.it/it). He obtained his MD from Università degli studi di Milano. He is very interested in the mechanisms of ischemic heart failure. He is currently studying the mechanisms of structural degeneration of the pediatric bioprosthetic conduits.
-
-\
-
-
----
-
-### <a id="Lab Manager"></a>Lab Manager
-
-\
-
-![](images/Mangesh.jpg){width=25%}
-
-#### *Mangesh Kurade, MS*
-
-Mangesh is the lab manager for Ferrari Lab. He completed his Masters of Science in Pharmacology and Toxicology from Long Island University in Brooklyn, New York. His research background involves basic molecular and translational biology in cardiovascular, inflammation and infectious diseases. In his free time, he enjoys playing tennis, his guitar and taking long drives.
-
-<i class="fa fa-telegram"></i> [Email](mailto:<mk4376@cumc.columbia.edu>)
-
-\
-
 ---
 
 ### <a id="Students"></a>Medical Students
 
-\
-
-![](images/edoardo.jpg){width=25%}
-
-#### *Edoardo Bianco* \
-*U of Bologna*\
-
-Edoardo is a medical student in his  fifth year at the [Alma Mater Studiorum Università di Bologna](https://www.unibo.it/en). He developed an interest for cardiac surgery during his third year in medical school. His research and clinical interests involve the study of the aortic pathology, particularly the treatment of acute aortic syndrome and the sub-cellular mechanisms involved in its pathogenesis.  
 
 \
 
@@ -208,6 +183,34 @@ Life's not ruff when I am around. Woof
 ---
 
 ### Alumni\
+
+\
+
+![](images/edoardo.jpg){width=25%}
+
+#### *Edoardo Bianco* \
+*U of Bologna*\
+
+Edoardo is a medical student in his  fifth year at the [Alma Mater Studiorum Università di Bologna](https://www.unibo.it/en). He developed an interest for cardiac surgery during his third year in medical school. His research and clinical interests involve the study of the aortic pathology, particularly the treatment of acute aortic syndrome and the sub-cellular mechanisms involved in its pathogenesis.  
+
+\
+
+![](images/Mangesh.jpg){width=25%}
+
+#### *Mangesh Kurade, MS*
+
+Mangesh was the lab manager for Ferrari Lab. He completed his Masters of Science in Pharmacology and Toxicology from Long Island University in Brooklyn, New York. His research background involved basic molecular and translational biology in cardiovascular, inflammation and infectious diseases. In his free time, he enjoys playing tennis, his guitar and taking long drives.
+
+<i class="fa fa-telegram"></i> [Email](mailto:<mk4376@cumc.columbia.edu>)
+
+\
+
+![](images/niko.jpg){width=25%}
+ 
+#### *Nicolò Vitale, MD*\
+*U of Milan*
+
+Nicolò Vitale is cardiac surgery resident at [Università degli studi di Milano](https://www.unimi.it/it). He obtained his MD from Università degli studi di Milano. He is very interested in the mechanisms of ischemic heart failure. He studied the mechanisms of structural degeneration of the pediatric bioprosthetic conduits.
 
 \
 
