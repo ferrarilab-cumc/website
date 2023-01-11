@@ -55,6 +55,23 @@ editor_options:
 
 ## <i class='fas fa-rss-square'></i> Lab News
 
+\
+
+<div id="demobox">
+
+January 2023 <i class="fas fa-file-alt"></i>\
+[Estibaliz Castillero, PhD](about.html#Scientists) published her findings in [Science Translational Medicine](https://www.science.org/doi/10.1126/scitranslmed.adc9606) on the role of serotonin transporter activity on mitral valve degeneration, in collaboration with the Levy Lab.
+
+</div>
+
+\
+
+<div id="demobox">
+
+December 2022 <i class="fas fa-file-alt"></i>\
+[Alexey Abramov MD MS](about.html#abramov) and [Yingfei Xue's PhD](about.html#PostDocs) published their work on association of metabolic syndrome with bioprosthetic heart valve structural degeneration in [Proceedings of National Academy of Sciences (PNAS)](https://www.pnas.org/doi/10.1073/pnas.2219054120) journal.
+
+</div>
 
 \
 
@@ -79,7 +96,7 @@ Our collaboration with the the Kalfa Lab on multilayered polymeric material for 
 <div id="demobox">
 
 May 2022 <i class="fas fa-solid fa-user-graduate"></i>\
-[Alexey Abramov MD MS](about.html#PostDocs) and [Mar Martinez Mas MBE](about.html#Students) graduated from their Columbia University masters programs!    
+[Alexey Abramov MD MS](about.html#abramov) and [Mar Martinez Mas MBE](about.html#martinez) graduated from their Columbia University masters programs!    
 
 </div>
 
@@ -88,7 +105,7 @@ May 2022 <i class="fas fa-solid fa-user-graduate"></i>\
 <div id="demobox">
 
 May 2022 <i class="fas fa-microphone-alt"></i>\
-Ferrari Lab [Surgical Residents](about.html#SurgRes) Alexey Abramov MD, Clinton Erwin MD, Dov Levine MD, and Michael Simpson MD all  presented  their research at the [American Association for Thoracic Surgery](https://events.aats.org/102nd-annual-meeting) 102nd Annual Meeting in Boston, MA.
+Ferrari Lab [Surgical Residents](about.html#abramov) Alexey Abramov MD, Clinton Erwin MD, Dov Levine MD, and Michael Simpson MD all  presented  their research at the [American Association for Thoracic Surgery](https://events.aats.org/102nd-annual-meeting) 102nd Annual Meeting in Boston, MA.
 
 </div>
 

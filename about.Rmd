@@ -129,14 +129,13 @@ Erfan is a General Surgery resident undertaking a T32-funded postdoctoral fellow
 
 #### *Sameer Singh, MD*
 
-Sameer is a resident in the Integrated Cardiothoracic Surgery Program at Columbia University. He has completed three years of surgical residency and has clinical interests in heart failure, transplantation, and mechanical circulatory support. He obtained his MD from [Northwestern University](https://www.https://www.feinberg.northwestern.edu) in Chicago, IL. Currently, with the support of the Thoracic Surgery Foundation (TSF) Resident Research Fellowship Award, he is studying the underlying mechanisms of structural valve degeneration specifically with regards to transcatheter valve technologies. 
+Sameer is a resident in the Integrated Cardiothoracic Surgery Program at Columbia University. He has completed three years of surgical residency and has clinical interests in heart failure, transplantation, and mechanical circulatory support. He obtained his MD from [Northwestern University](https://www.feinberg.northwestern.edu) in Chicago, IL. Currently, with the support of the Thoracic Surgery Foundation (TSF) Resident Research Fellowship Award, he is studying the underlying mechanisms of structural valve degeneration specifically with regards to transcatheter valve technologies. 
 
 <i class="fa fa-telegram"></i> [Email](mailto:<ss5685@cumc.columbia.edu>)
 
 \
 
 ---
-
 
 
 
@@ -216,11 +215,15 @@ Mangesh was the lab manager for Ferrari Lab. He completed his Masters of Science
 
 Nicolò Vitale is cardiac surgery resident at [Università degli studi di Milano](https://www.unimi.it/it). He obtained his MD from Università degli studi di Milano. He is very interested in the mechanisms of ischemic heart failure. He studied the mechanisms of structural degeneration of the pediatric bioprosthetic conduits.
 
+
+<a id="abramov">
+
 \
 
 ![](images/abramov.jpg){width=25%}
 
 #### *Alexey Abramov, MD, MS (2020-2022)*
+
 
 Alexey is a General Surgery resident in the [New York Presbyterian-Columbia](https://columbiasurgery.org/general-surgery-residency) program with an interest in cardiothoracic surgery fellowship and biomedical engineering.  He graduated from [Emory University](http://college.emory.edu/main/index.html) and received his MD from [New York Medical College](https://www.nymc.edu/school-of-medicine-som/). He completed an NIH T32 post-doctoral research fellowship in Dr. Ferrari's lab studying the underlying mechanisms of structural degeneration of bioprosthetic heart valves with next-generation proteomics. While in the lab, he also completed a Master's degree in Biostatistics at the [Columbia University Mailman School of Public Health](https://www.publichealth.columbia.edu/academics/degrees/master-science/clinical-research-methods). In his free time, he enjoys the outdoors, hiking, running, road cycling and skiing.
 
@@ -267,6 +270,8 @@ Michael is a resident in the [Integrated Cardiothoracic surgery at New York Pres
 <i class="fa fa-telegram"></i> [Email](mailto:<mts2153@cumc.columbia.edu>)
 
 \
+
+<a id="martinez">
 
 ![](images/mas.jpg){width=25%}
 
