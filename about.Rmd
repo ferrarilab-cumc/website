@@ -87,7 +87,6 @@ Dr. Camillo is a cellular biologist studying the molecular mechanisms that regul
 
 ---
 
-\
 
 ### <a id="PostDocs"></a>Postdoctoral Research Fellows	
 
@@ -109,13 +108,10 @@ His research goal is to better understand the mechanisms of cardiovascular impla
 
 ---
 
-\
-
-
 
 ### <a id="SurgRes"></a>Surgical Residents
 
-\
+
 
 ![](images/erfan.jpg){width=25%}
 
@@ -129,9 +125,19 @@ Erfan is a General Surgery resident undertaking a T32-funded postdoctoral fellow
 
 \
 
----
+![](images/sameer.jpeg){width=25%}
+
+#### *Sameer Singh, MD*
+
+Sameer is a resident in the Integrated Cardiothoracic Surgery Program at Columbia University. He has completed three years of surgical residency and has clinical interests in heart failure, transplantation, and mechanical circulatory support. He obtained his MD from [Northwestern University](https://www.https://www.feinberg.northwestern.edu) in Chicago, IL. Currently, with the support of the Thoracic Surgery Foundation (TSF) Resident Research Fellowship Award, he is studying the underlying mechanisms of structural valve degeneration specifically with regards to transcatheter valve technologies. 
+
+<i class="fa fa-telegram"></i> [Email](mailto:<ss5685@cumc.columbia.edu>)
 
 \
+
+---
+
+
 
 
 ### <a id="GradStudent"></a>Graduate Students
@@ -153,7 +159,6 @@ Dov is a General Surgery resident and aspiring Cardiac Surgeon currently pursuin
 ### <a id="Students"></a>Medical Students
 
 
-\
 
 ![](images/evan_woodard.jpg){width=25%}
 
@@ -163,7 +168,6 @@ Dov is a General Surgery resident and aspiring Cardiac Surgeon currently pursuin
 Evan is a second-year medical student at [Morehouse School of Medicine](https://msm.edu) interested in a career in cardiothoracic surgery. Some of his research and clinical interests include patient outcomes research and minimally invasive surgical techniques. 
 
 \
-
 
 
 ---
@@ -188,7 +192,7 @@ Life's not ruff when I am around. Woof
 
 ![](images/edoardo.jpg){width=25%}
 
-#### *Edoardo Bianco* \
+#### *Edoardo Bianco (2022)* \
 *U of Bologna*\
 
 Edoardo is a medical student in his  fifth year at the [Alma Mater Studiorum Università di Bologna](https://www.unibo.it/en). He developed an interest for cardiac surgery during his third year in medical school. His research and clinical interests involve the study of the aortic pathology, particularly the treatment of acute aortic syndrome and the sub-cellular mechanisms involved in its pathogenesis.  
@@ -197,7 +201,7 @@ Edoardo is a medical student in his  fifth year at the [Alma Mater Studiorum Uni
 
 ![](images/Mangesh.jpg){width=25%}
 
-#### *Mangesh Kurade, MS*
+#### *Mangesh Kurade, MS (2019-2022)*
 
 Mangesh was the lab manager for Ferrari Lab. He completed his Masters of Science in Pharmacology and Toxicology from Long Island University in Brooklyn, New York. His research background involved basic molecular and translational biology in cardiovascular, inflammation and infectious diseases. In his free time, he enjoys playing tennis, his guitar and taking long drives.
 
@@ -207,7 +211,7 @@ Mangesh was the lab manager for Ferrari Lab. He completed his Masters of Science
 
 ![](images/niko.jpg){width=25%}
  
-#### *Nicolò Vitale, MD*\
+#### *Nicolò Vitale, MD (2021-2022)*\
 *U of Milan*
 
 Nicolò Vitale is cardiac surgery resident at [Università degli studi di Milano](https://www.unimi.it/it). He obtained his MD from Università degli studi di Milano. He is very interested in the mechanisms of ischemic heart failure. He studied the mechanisms of structural degeneration of the pediatric bioprosthetic conduits.
@@ -216,7 +220,7 @@ Nicolò Vitale is cardiac surgery resident at [Università degli studi di Milano
 
 ![](images/abramov.jpg){width=25%}
 
-#### *Alexey Abramov, MD, MS*
+#### *Alexey Abramov, MD, MS (2020-2022)*
 
 Alexey is a General Surgery resident in the [New York Presbyterian-Columbia](https://columbiasurgery.org/general-surgery-residency) program with an interest in cardiothoracic surgery fellowship and biomedical engineering.  He graduated from [Emory University](http://college.emory.edu/main/index.html) and received his MD from [New York Medical College](https://www.nymc.edu/school-of-medicine-som/). He completed an NIH T32 post-doctoral research fellowship in Dr. Ferrari's lab studying the underlying mechanisms of structural degeneration of bioprosthetic heart valves with next-generation proteomics. While in the lab, he also completed a Master's degree in Biostatistics at the [Columbia University Mailman School of Public Health](https://www.publichealth.columbia.edu/academics/degrees/master-science/clinical-research-methods). In his free time, he enjoys the outdoors, hiking, running, road cycling and skiing.
 
@@ -228,7 +232,7 @@ Alexey is a General Surgery resident in the [New York Presbyterian-Columbia](htt
 
 ![](images/viv.jpg){width=25%}
 
-#### *Vivian Moreno*
+#### *Vivian Moreno (2020-2022)*
 
 Vivian Moreno was the Clinical Research Coordinator for the Ferrari Lab. She completed her Bachelor’s of Science in Biomedical Science at the [University of Kent in Canterbury, England](https://www.kent.ac.uk). Her research background included cancer research at Yale University and novel antimicrobial peptides at [NovaBiotics, Ltd](https://novabiotics.co.uk). She is now pursuing advanced training in Hofstra Cardiovascular Medicine and Perfusion program. 
 
@@ -238,7 +242,7 @@ Vivian Moreno was the Clinical Research Coordinator for the Ferrari Lab. She com
 
 ![](images/Jessica.jpg){width=25%}
 
-#### *Jessica Tom*
+#### *Jessica Tom (2020-2022)*
 
 Jessica was a Research Technician in the Ferrari Lab. A native New Yorker, she completed her Bachelor’s of Science in Biology and Women’s Gender and Sexuality Studies at [Stony Brook University](https://www.stonybrook.edu). While at Stony Brook, she conducted research pertaining to Chronic Myelogenous Leukemia (CML) in the lab of Dr. Markus Seeliger. Her interest in cardiovascular diseases and prevention led her to the Ferrari Lab where she provided support to the Biobank and various research projects. She is now a medical student at Albert Einstein College of Medicine.
 
@@ -248,7 +252,7 @@ Jessica was a Research Technician in the Ferrari Lab. A native New Yorker, she c
 
 ![](images/clint.jpg){width=25%}
 
-#### *Clinton Erwin, MD*
+#### *Clinton Erwin, MD (2021-2022)*
 
 Clinton is a resident in  [Integrated Cardiothoracic surgery at New York Presbyterian-Columbia](https://columbiasurgery.org/cardiothoracic-training). He obtained his MD from [University of Alabama at Birmingham](https://www.uabmedicine.org), where he developed an interest in cardiac surgery. While in lab, he studied mechanisms of cardiovascular damage related to COVID-19, along with several clinical projects in adult cardiac surgery.   
 
@@ -256,7 +260,7 @@ Clinton is a resident in  [Integrated Cardiothoracic surgery at New York Presbyt
 
 \
 
-#### *Michael Simpson, MD*
+#### *Michael Simpson, MD (2021-2022)*
 
 Michael is a resident in the [Integrated Cardiothoracic surgery at New York Presbyterian-Columbia](https://columbiasurgery.org/cardiothoracic-training). He obtained his MD from [Columbia University College of Physicians & Surgeons](https://www.vagelos.columbia.edu/education/academic-programs/md-program). While in the lab, he studied pathologic mechanisms in mitral valve disease and was involved in several clinical projects across the spectrum of adult cardiac surgery.
 
@@ -266,7 +270,7 @@ Michael is a resident in the [Integrated Cardiothoracic surgery at New York Pres
 
 ![](images/mas.jpg){width=25%}
 
-#### *Mar Martinez Mas, MBE*
+#### *Mar Martinez Mas, MBE (2020-2022)*
 *Columbia University*\
 
 Mar Martinez Mas was a Master’s student in [Biomedical Engineering at Columbia University](https://www.bme.columbia.edu). She is from Barcelona, Spain, and completed her undergraduate degree at [Universitat Pompeu Fabra](https://www.upf.edu/es/) (Barcelona, Spain) where she worked in the field of biomedical electronics. Afterward, she completed the last year and a half of her degree at the [Politecnico di Milano](https://www.polimi.it) (Milan, Italy), where she mainly studied the field of biomechanics.\

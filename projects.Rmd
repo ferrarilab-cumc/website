@@ -1,5 +1,5 @@
 ---
-title: "Our Projects and Publications"
+title: "Current Projects"
 subtitle: "*Columbia University Irving Medical Center Cardiothoracic Surgery Research Program*"
 output: 
   html_document:
